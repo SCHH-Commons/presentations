@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic);
+    body { font-family: 'Roboto'; }
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+  <script type="module">
+    import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js"
+    const md2Html = (md) => marked.parse(md).slice(3, -5) // convert markdown to HTML
+    let src = new URLSearchParams(location.search).get('src')
+    fetch(src).then(resp => resp.text()).then(md => document.getElementById('content').innerHTML = md2Html(md))
+  </script>
+
+</body>
+</html>
