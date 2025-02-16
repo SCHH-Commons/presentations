@@ -5,27 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    @import url(https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css);
     @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic);
     body { font-family: 'Roboto'; }
-    #chat { display: flex; flex-direction: column; max-width: 1000px; margin: auto; padding: 1em; border: 1px solid #ddd; border-radius: 6px; }
-    .prompt { background-color: #eee; border-radius: 12px; padding: .75em 1em; align-self: flex-end; max-width: 75%; }
-    .response { max-width: 75%; margin-top: 1em; }
+    #chat { display: flex; flex-direction: column; max-width: 1000px; margin: auto; padding: 1em; }
+    .prompt-wrapper { align-self: flex-end; max-width: 75%; }
+    .prompt { background-color: #eee; border-radius: 12px; padding: .75em 1em; }
+    .response { max-width: 75%; }
+    sl-copy-button { opacity: 0; }
+    .prompt-wrapper:hover > sl-copy-button { opacity: 1; }
   </style>
 </head>
 <body>
   <div id="chat"></div>
   <script type="module">
-    import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js"
+    import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js'
+    import 'https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/components/copy-button/copy-button.js';
+
     const md2Html = (md) => marked.parse(md).slice(3, -5) // convert markdown to HTML
     let src = new URLSearchParams(location.search).get('src')
     fetch(src).then(resp => resp.text())
     .then(md => md.split(/\s*===\s*/).filter(text => text.trim()).map((md, idx) => ({ class: idx % 2 ? 'response' : 'prompt' , md})))
     .then(chat => {
       let chatEl = document.getElementById('chat')
-      chat.forEach(item => {
+      chat.forEach((item, idx) => {
         let div = document.createElement('div')
-        div.className = item.class
-        div.innerHTML = md2Html(item.md)
+        if (item.class === 'prompt') {
+          div.className = 'prompt-wrapper'
+          div.innerHTML = `<div class="prompt" id="item-${idx}">${md2Html(item.md)}</div><sl-copy-button style="align-self: flex-end;" from="item-${idx}"></sl-copy-button>`
+        } else {
+          div.className = 'response'
+          div.innerHTML = md2Html(item.md)
+        }
         chatEl.appendChild(div)
       })
     })

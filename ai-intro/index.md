@@ -11,18 +11,6 @@ The background image on this slide use different colors and brightness to repres
 
 ---
 
-.left-column[
-### Meal-planning example
-- Ask for the meal plan with some specific guidance
-- Get a shopping list to use directly or add to an shopping app
-]
-
-.right-column[
-<iframe src="chat?src=chats/chat-1.md"></iframe>
-]
-
----
-
 ## Agenda
 
 1. Introduction
@@ -37,13 +25,13 @@ The background image on this slide use different colors and brightness to repres
 
 **Married, father of 6 (including triplets), retired in 2024**
 
-**+45 years in software engineering, in both hands-on and management roles**
+**+45 years in software engineering, in both hands-on and leadership roles**
 - 9 years in the US Air Force
-- 15 years in various defense contracting roles with McDonnell Douglas, General Electric, and General Dynamics
+- 15 years in defense contracting roles with McDonnell Douglas, General Electric, and General Dynamics
   - Software Engineering Manager for the M1A2 Abrams MBT
-- 4 years working with a small startup on DARPA autonomous agents research project
+- 4 years working with a small startup on a DARPA research project involving autonomous agents
 - 18 years working for a non-profit in the academic community
-  - 10 years as director of R&D for their innovation Lab
+  - 10 years as Director of R&D for their Innovation Lab
 
 Interests included digital imaging, knowledge graphs, digital mapping, and artificial Intelligence
 
@@ -209,50 +197,31 @@ Key elements of a good chatbot prompt:
 
 ---
 
-name: test
-class: chat
+## Examples
 
-## Example: Simple prompt
+In the following slides, chatbot examples are provided for a variety of everyday scenarios.  
 
---
+Each slide includes the conversation output from an actual chatbot session.  Users are encouraged to
+copy the prompt(s) from each example and paste them into a live chatbot session.
 
-template: test
+Try changing the prompt to see how the responses change.
 
-.prompt[
-Tell me about Sun City
-]
+Note that even when using the exact prompt(s) included in the example chat, the chatbot output will likely be somewhat different.  This is both a reflection of the specific chatbot used (ChatGPT, Claude, etc) and the fact that LLM responses are designed to produce some variation.
 
---
+To copy the prompt text from the examples, hover over the prompt text and click on the copy icon that will appear below the prompt.  You can then paste the text into the input box in your chatbot of choice.
 
-template: test
-
-.response[
-<iframe src="md?src=examples/example-1.md"></iframe>
-]
+.footnote[ChatGPT (gpt-4o model) was used in in the creation of these examples.]
 
 ---
 
-name: test
-class: chat
-
-## Example: Simple prompt
-
---
-
-template: test
-
-.prompt[
-You are a helpful assistant.  
-- You are an expert on Sun City Hilton Head.
-- You return all answers in markdown
+.left-column[
+### Meal-planning
+- 1 - Ask for the meal plan with some specific guidance
+- 2 - Get a shopping list to use directly or add to an shopping app
 ]
 
---
-
-template: test
-
-.response[
-<iframe src="md?src=examples/example-1.md"></iframe>
+.right-column[
+<iframe src="chat?src=chats/meal-planning.md"></iframe>
 ]
 
 ---

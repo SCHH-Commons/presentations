@@ -1,4 +1,4 @@
-Create a one week meal plan for two.  The meals should be easy to prepare, relatively inexpensive, and healthy.  On average the daily calorie count should be 1800-2000 for each os us.  Include 3 dinners that are vegetarian.  Also, I have something of a sweet tooth, so include a few deserts in the plan.  Nothing too crazy.
+Create a one week meal plan for two.  The meals should be easy to prepare, relatively inexpensive, and healthy.  On average, the daily calorie count should be 1800-2000 for each of us.  Include 3 dinners that are vegetarian.  Also, I have something of a sweet tooth, so include a few deserts in the plan.
 
 ===
 
