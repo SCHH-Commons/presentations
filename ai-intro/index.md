@@ -11,6 +11,18 @@ The background image on this slide use different colors and brightness to repres
 
 ---
 
+.left-column[
+### Meal-planning example
+- Ask for the meal plan with some specific guidance
+- Get a shopping list to use directly or add to an shopping app
+]
+
+.right-column[
+<iframe src="chat?src=chats/chat-1.md"></iframe>
+]
+
+---
+
 ## Agenda
 
 1. Introduction
