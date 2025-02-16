@@ -17,7 +17,23 @@ The background image on this slide use different colors and brightness to repres
 1. Some History & A Review of the Current AI Landscape
 1. Uses of AI in Everyday Life
 1. Hands-on Exploration
-1. Wrao-up and Q&A
+1. Wrap-up and Q&A
+
+---
+
+## About Me
+
+**Married, father of 6 (including triplets), retired in 2024**
+
+**+45 years in software engineering, in both hands-on and management roles**
+- 9 years in the US Air Force
+- 15 years in various defense contracting roles with McDonnell Douglas, General Electric, and General Dynamics
+  - Software Engineering Manager for the M1A2 Abrams MBT
+- 4 years working with a small startup on DARPA autonomous agents research project
+- 18 years working for a non-profit in the academic community
+  - 10 years as director of R&D for their innovation Lab
+
+Interests included digital imaging, knowledge graphs, digital mapping, and artificial Intelligence
 
 ---
 
@@ -148,6 +164,36 @@ Why?
 - **AI-Generated Art & Music**
 - **Translation Tools:** Google Translate
 - **Planning & Organization:** AI for travel, scheduling, reminders
+
+---
+
+## Chatbot Prompting
+
+A good chatbot prompt is clear, concise, specific, and provides enough context to guide the AI model towards generating a relevant and accurate response; it should be phrased in a way that is easy for the chatbot to understand, avoiding ambiguity and unnecessary jargon, while also potentially including details like the desired tone or format of the answer. 
+
+Key elements of a good chatbot prompt:
+- **Clarity:** Use simple language and avoid complex sentence structures. 
+- **Specificity:** Clearly state what information you need, including important details and parameters. 
+- **Context:** Provide relevant background information to help the chatbot understand the situation. 
+- **Conciseness:** Keep the prompt short and to the point, focusing on the essential elements. 
+- **Appropriate Tone:** Set the tone for the response by indicating whether you want a formal, casual, or informative answer. 
+
+---
+
+## Chatbot Prompting
+
+### Examples of good chatbot prompts:
+- "Explain the concept of artificial intelligence in simple terms." 
+- "Recommend a family-friendly restaurant near downtown Chicago." 
+- "Write a short poem about the beauty of nature, using imagery of a sunset." 
+- "What are the side effects of taking medication X?" 
+- "Summarize the key points of this article about climate change." 
+
+### What to avoid in a chatbot prompt:
+- Ambiguity: "Tell me something interesting" (too vague) 
+- Jargon: "What is the ROI of this marketing campaign?" (may not be understood by the chatbot) 
+- Open-ended questions: "What do you think about this?" (may lead to irrelevant responses) 
+- Excessive complexity: "Provide a detailed analysis of the economic impact of the recent trade war, including historical data and potential future scenarios." (too much information at once) 
 
 ---
 
