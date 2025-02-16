@@ -215,7 +215,7 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
-### Meal-planning
+### Meal planning
 - 1 - Ask for the meal plan with some specific guidance
 - 2 - Get a shopping list to use directly or add to an shopping app
 ]
@@ -225,3 +225,26 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ]
 
 ---
+
+.left-column[
+### Vacation planning 
+- Ask for possible itineraries for a Maine road-trip vacation
+- Ask a follow-up question about where to get good lobster rolls
+]
+
+.right-column[
+<iframe src="chat?src=chats/vacation-planning.md"></iframe>
+]
+
+---
+
+.left-column[
+### Medical 
+- Ask for information on a specific medical condition
+
+.caution[.red[Caution!] - While helpful in obtaining background information, chatbots should not be used for diagnosis and self-treatment.]
+]
+
+.right-column[
+<iframe src="chat?src=chats/synovial-chondromatosis.md"></iframe>
+]
