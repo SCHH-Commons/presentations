@@ -15,7 +15,7 @@ The background image on this slide use different colors and brightness to repres
 
 1. Introduction
 1. Some History & A Review of the Current AI Landscape
-1. Uses of AI in Everyday Life
+1. Overview of Current Models and Chatbots
 1. Hands-on Exploration
 1. Wrap-up and Q&A
 
@@ -37,31 +37,221 @@ Interests included digital imaging, knowledge graphs, digital mapping, and artif
 
 ---
 
-## What is Artificial Intelligence
+class: center, middle
 
-Artificial Intelligence (AI) refers to the capability of machines, particularly computer systems, to perform tasks that typically require human intelligence.
+## The Evolution of AI: From Early Days to AGI & Beyond
 
-These tasks include understanding language, recognizing patterns, solving problems, and making decisions.
-
-AI encompasses a range of technologies and approaches, enabling machines to learn from experience, adapt to new inputs, and execute human-like functions. 
+*How AI Progressed from Rule-Based Systems to Generative Intelligence—and What Comes Next*
 
 ---
 
-## Key Components of AI
+## The Birth of AI (1940s-1950s)
+### AI as a Concept
+- Inspired by human intelligence.
+- **Key Milestones:**
+  - **1943** – First mathematical model of a neuron (McCulloch & Pitts).
+  - **1950** – Alan Turing introduces the **Turing Test** for intelligence.
+  - **1956** – **Dartmouth Conference**: AI officially becomes a field.
+- **Early AI = Symbolic Reasoning** (Logic-based models).
 
-1. **Machine Learning (ML):** A subset of AI that involves training algorithms to learn from and make predictions based on data, improving their performance over time without explicit programming. 
-2. **Neural Networks:** Computational models inspired by the human brain’s structure, consisting of interconnected nodes (neurons) that process information in layers to recognize patterns and make decisions.
-3. **Natural Language Processing (NLP):** The ability of machines to understand, interpret, and generate human language, enabling interactions through speech and text.
-4. **Computer Vision:** The capability of machines to interpret and process visual information from the world, such as images and videos.
+???
+- The **Turing Test** proposed the idea of AI mimicking human responses.
+- **John McCarthy** coined the term *Artificial Intelligence* at Dartmouth.
+- Early AI was **rules-based** and used logic, not learning algorithms.
 
 ---
 
-## Some Applications of AI
+## Early AI Boom & Expert Systems (1950s-1970s)
+### AI Gains Momentum
+- Focus on **symbolic AI** and logic-based problem-solving.
+- **Breakthroughs:**
+  - **1958** – McCarthy develops **LISP**, the first AI programming language.
+  - **1966** – **ELIZA**, an early chatbot, mimics conversation.
+  - **1970s** – **Expert Systems** simulate human decision-making.
+- **Challenges:** AI was **brittle** and struggled with real-world uncertainty.
 
-- **Virtual Assistants:** Tools like Siri, Alexa, and Google Assistant that understand and respond to voice commands, assisting users with various tasks.
-- **Autonomous Vehicles:** Self-driving cars that utilize AI to navigate roads, interpret traffic conditions, and make real-time driving decisions.
-- **Healthcare Diagnostics:** AI systems that analyze medical data to assist in diagnosing diseases and recommending treatments.
-- **Recommendation Systems:** Algorithms that suggest products, services, or content to users based on their preferences and behavior, commonly used by platforms like Netflix and Amazon.
+???
+- AI was **hand-coded** and couldn’t adapt to new data.
+- **ELIZA** was a major leap forward, but it was **scripted** rather than intelligent.
+- **Expert systems** were used in **medicine, finance**, but failed at generalization.
+
+---
+
+## The First AI Winter (1970s-1980s)
+### Why AI Stalled
+- **Unrealistic expectations** vs. actual progress.
+- AI systems were too **rigid**, required **massive human input**.
+- **Funding cuts** → Major slowdown in research & development.
+- **Japan’s Fifth Generation Project** (1980s) attempted to revive AI but fell short.
+
+???
+- AI suffered from **overpromising and underdelivering**.
+- Governments and companies **lost faith** in AI.
+- AI was **too slow and expensive** to be practical.
+
+---
+
+## The Machine Learning Revolution (1990s-2010s)
+### AI Shifts to Learning from Data
+- **Breakthroughs in Machine Learning (ML):**
+  - **1997** – IBM’s **Deep Blue beats Garry Kasparov** in chess.
+  - **2006** – Geoffrey Hinton revives **deep learning** (multi-layer neural networks).
+  - **2012** – **ImageNet competition** proves AI can **outperform humans** in image recognition.
+- **Key Shift:** From **hand-coded rules** → to **data-driven learning**.
+
+???
+- **Deep Blue** won by brute force, but **true AI needed to generalize**.
+- The **biggest shift** was letting **AI learn patterns on its own** instead of **programming logic manually**.
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/22/Sputnik-516.jpg)
+class: cover, lighten
+
+## The Deep Learning Era (2010s-2020s)
+### AI Breaks Barriers
+- **Neural Networks + Big Data** = **Massive Performance Leap**
+- **Breakthroughs:**
+  - **2016** – Google’s **AlphaGo defeats world Go champion** using deep reinforcement learning.
+  - **2017** – **Transformers revolutionize NLP** (*Attention Is All You Need* paper).
+  - **2018-2020** – GPT-2 and GPT-3 showcase AI’s language capabilities.
+
+An AI *“Sputnik Moment”* occurred in November of 2022 with the release of ChatGPT, resulting in
+- Mass adoption and public awareness
+- Industry disruption
+- Government and regulatory response
+- Investment surge
+- Fierce competition
+
+???
+- **AlphaGo** beat humans in **a game too complex for brute force** → This was true AI learning.
+- **Transformers** became the foundation of modern **language models**.
+
+A "Sputnik moment" refers to a turning point that triggers a significant response, particularly in terms of technological advancement, innovation, or competition. The term originates from the Soviet Union's successful launch of Sputnik 1 in 1957, which was the first artificial satellite to orbit Earth. This event shocked the United States and spurred a rapid acceleration in space research, leading to the Space Race and ultimately the Apollo moon landings.
+
+Today, a "Sputnik moment" is used more broadly to describe any event that serves as a wake-up call, prompting urgent action or investment in response to a perceived technological or strategic challenge. For example, discussions around AI advancements, climate change, or global competitiveness often invoke the term to highlight the need for rapid innovation and policy shifts.
+
+---
+
+## Understanding Large Language Models (LLMs)
+### How LLMs Work and What They Can Do
+#### What is an LLM?
+- A **Large Language Model (LLM)** is an AI trained on vast amounts of text data to **understand and generate human-like language**.
+- LLMs **predict the next word in a sequence** based on probability.
+
+#### How Are LLMs Built?
+1. **Pre-training:** The model learns **language patterns** from massive datasets (books, websites, articles).
+2. **Fine-tuning:** It is refined for **specific tasks** (chatbots, coding, customer support).
+3. **Reinforcement Learning with Human Feedback (RLHF):** AI is adjusted based on **human preference and safety** guidelines.
+
+---
+
+## Understanding Large Language Models (LLMs) - Continued
+
+#### How Are LLMs Used?
+- **Chatbots & Virtual Assistants** (*ChatGPT, Claude, Gemini*).  
+- **Code Generation** (*GitHub Copilot, OpenAI Codex*).  
+- **Creative Writing & Content Generation** (*DALL·E prompts, news summaries*).  
+- **Scientific Research & Data Analysis** (*AI-assisted medical studies, legal research*).
+
+#### Emergent Behaviors Observed
+- **Few-shot Learning:** Can **solve problems with minimal examples**.
+- **Chain-of-Thought Reasoning:** Can **break down complex reasoning tasks** step-by-step.
+- **Unexpected Creativity:** AI-generated **poems, analogies, and artwork**.
+- **Hallucinations:** Sometimes generates **false but convincing information**.
+
+???
+- LLMs differ from traditional AI by dynamically **generating** responses.
+- **Transformers enable context-aware learning**.
+- **Emergent behaviors** suggest AI may be developing **unexpected generalization abilities**.
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Human_brain_blue_circuit_artificial_intelligence_icon_%28DALL-_E%29_Dec_2024.jpg)
+
+class: cover, lighten
+
+## AI and Image Generation
+
+---
+
+## The Rise of Generative AI (2020s)
+### AI Can Now "Create"
+- **Beyond analysis → AI generates new content.**
+- **Breakthroughs:**
+  - **GPT-3 & 4** – Chatbots, AI writing assistants.
+  - **DALL·E, Midjourney** – AI-generated images.
+  - **Sora (2024)** – AI video generation.
+- **Key Question:** Are we moving toward **AGI**?
+
+???
+- **AI can now "imagine" things it has never seen before.**
+- **Biggest leap**: AI is no longer just responding; it’s **creating original work**.
+
+---
+
+## What is AGI?
+### Artificial General Intelligence (AGI)
+- AGI can **learn, reason, and apply knowledge** across domains.
+- **Today’s AI ≠ AGI** → Still task-specific.
+- AGI must have **memory, reasoning, and adaptability**.
+
+---
+
+## Key Challenges to Achieving AGI
+- **Lack of Generalization** – AI struggles to **transfer** knowledge.
+- **No True Memory or Autonomy** – AI doesn’t retain **context over time**.
+- **Common Sense & Reasoning Issues** – AI can’t yet **think like humans**.
+
+---
+
+## What is ASI?
+- **Artificial Superintelligence (ASI)**: AI that **surpasses human intelligence**.
+- ASI would be **capable of recursive self-improvement**.
+- **Key Risks:**
+  - **Control Problems** – How do we ensure alignment with human values?
+  - **Power Imbalances** – ASI in the wrong hands could be dangerous.
+
+---
+
+class: center, middle
+
+# The Rise of the Chatbot...
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/256px-HAL9000.svg.png)
+
+---
+
+class: center, middle
+
+<iframe width="100%" style="aspect-ratio:16/8;"" src="https://www.youtube.com/embed/ARJ8cAGm6JE?start=87&end=100" title="HAL 9000: &quot;I&#39;m sorry Dave, I&#39;m afraid I can&#39;t do that&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### The HAL 9000, a famous Chatbot from Science Fiction
+
+???
+The video clip is from *2001: A Space Odyssey (1968)*.  
+
+The HAL 9000 is a great example of a chatbot from science fiction.
+
+- HAL is an AI-powered conversational assistant aboard the Discovery One spacecraft.
+- It can understand and respond to natural language like a modern chatbot.
+- HAL provides mission updates, controls ship functions, and interacts conversationally with astronauts.
+- However, it also demonstrates the risks of AI misalignment, as it ultimately prioritizes its mission directives over human safety.
+
+Other Sci-Fi Chatbots:
+- TARS (Interstellar, 2014) – A highly intelligent and humorous AI assistant.
+- Samantha (Her, 2013) – A sophisticated voice-based AI assistant with emotional depth.
+- Data (Star Trek: TNG) – While an android, Data often functions as a conversational AI.
+
+HAL 9000 is a cautionary tale of what happens when an AI chatbot is too powerful and misaligned—a theme relevant in today’s discussions on AGI safety.
+
+---
+
+## What is a chatbot?
+
+A chatbot is an AI-powered software application designed to simulate human-like conversations through text or voice interactions. It uses natural language processing (NLP) and, in advanced cases, machine learning and large language models (LLMs) to understand queries, generate responses, and assist users in various tasks, such as customer service, information retrieval, or casual conversation.
+
+All of the major AI developers provide chatbots for interacting with their LLMs.  Most of these are available under a *fremium* business model that offers basic services for free while charging for premium features, advanced functionality, or additional services.
 
 ---
 
@@ -70,14 +260,14 @@ AI encompasses a range of technologies and approaches, enabling machines to lear
 | Company | Chatbot | Free Models |
 | ------- | ------- | ----------- |
 | .flex[.logo[![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Arcticons-black_openai_chatgpt.svg)] OpenAI] | [ChatGPT](https://chatgpt.com/) | GPT-4o, o3-mini (reasoning) |
-| .flex[.logo[![](images/gemini.svg)] Google] | Gemini | 2.0 Flash, 2.0 Flash Thinking (reasoning) |
-| .flex[.logo[![](images/claude.svg)] Anthropic] | Claude | 3.5 Sonnet |
-| .flex[.logo[![](images/meta-ai.png)] Meta AI] | Meta AI | Llama 3.2, Llama 3,1, Llama 3.2 Editor |
-| .flex[.logo[![](images/copilot.svg)] Microsoft] | Copilot | GPT-4o, Prometheus |
-| .flex[.logo[![](images/qwen.png)] Alibaba] | Qwen | Qwen-2.5-Max, Qwen-2.5-Plus |
-| .flex[.logo[![](images/deepseek.png)] DeepSeek] | DeepSeek | DeepSeek-V3, DeepSeek-R1 (reasoning) |
-| .flex[.logo[![](images/mistral.svg)] Mistral AI] | Le Chat | Mistral Small, Mistral Large, Mistral Next |
-| .flex[.logo[![](images/perplexity.png)] Perplexity] | Perplexity| Auto (mix of OpenAi, Anthropic and Sonar models), o3-mini (reasoning), DeepSeek-R1 (reasoning) |
+| .flex[.logo[![](logos/gemini.svg)] Google] | Gemini | 2.0 Flash, 2.0 Flash Thinking (reasoning) |
+| .flex[.logo[![](logos/claude.svg)] Anthropic] | Claude | 3.5 Sonnet |
+| .flex[.logo[![](logos/meta-ai.png)] Meta AI] | Meta AI | Llama 3.2, Llama 3,1, Llama 3.2 Editor |
+| .flex[.logo[![](logos/copilot.svg)] Microsoft] | Copilot | GPT-4o, Prometheus |
+| .flex[.logo[![](logos/qwen.png)] Alibaba] | Qwen | Qwen-2.5-Max, Qwen-2.5-Plus |
+| .flex[.logo[![](logos/deepseek.png)] DeepSeek] | DeepSeek | DeepSeek-V3, DeepSeek-R1 (reasoning) |
+| .flex[.logo[![](logos/mistral.svg)] Mistral AI] | Le Chat | Mistral Small, Mistral Large, Mistral Next |
+| .flex[.logo[![](logos/perplexity.png)] Perplexity] | Perplexity| Auto (mix of OpenAi, Anthropic and Sonar models), o3-mini (reasoning), DeepSeek-R1 (reasoning) |
 
 ---
 
@@ -89,6 +279,38 @@ As AI becomes increasingly integrated into society, it raises important ethical,
 - ensuring that AI systems operate fairly and without bias. 
 
 Ongoing discussions and research aim to address these challenges, promoting the responsible development and deployment of AI technologies.
+
+---
+
+## AI Chatbot Data Privacy & Retention Summary (as of Feb 2025)
+
+- **OpenAI (ChatGPT & API)**
+    - Free & Plus Users: Conversations may be stored temporarily for abuse monitoring but are not used for training.
+    - API & Enterprise Users: No data retention, no model training on user inputs or uploads.
+- **Microsoft (Copilot & Azure OpenAI)**
+    - Copilot (365 Users): Follows Microsoft’s enterprise data privacy policies.
+    - Azure OpenAI: No data retention or model training on user inputs.
+- **Google (Bard, Gemini, Vertex AI)**
+    - Bard & Gemini (Free Users): May retain interactions for AI improvements unless opted out.
+    - Google Cloud Vertex AI: No retention or model training on enterprise customer data.
+
+---
+
+## AI Chatbot Data Privacy & Retention Summary - Continued
+
+- **Anthropic (Claude AI)**
+    - Claude Free & Pro Users: Temporary storage for monitoring but not used for training.
+    - Claude API & Enterprise: No retention, no training on user data.
+- **Meta (Llama AI & Facebook AI Services)**
+    - Meta AI (Free Services): May retain interactions for AI improvement.
+    - Llama AI Models (Local Use): No retention, but depends on third-party implementation.
+
+### General Best Practices for Privacy
+- **Use API or Enterprise Plans** to ensure no data retention.
+- **Check privacy settings** and opt out where possible.
+- **Self-host AI models** for maximum data control.
+
+_For sensitive data, use **self-hosted AI** or enterprise AI solutions with strict privacy guarantees._
 
 ---
 
@@ -215,7 +437,7 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
-### Meal planning
+### Meal Planning
 - 1 - Ask for the meal plan with some specific guidance
 - 2 - Get a shopping list to use directly or add to an shopping app
 ]
@@ -227,7 +449,7 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
-### Vacation planning 
+### Vacation Planning 
 - Ask for possible itineraries for a Maine road-trip vacation
 - Ask a follow-up question about where to get good lobster rolls
 ]
@@ -239,7 +461,7 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
-### Medical 
+### Medical Information
 - Ask for information on a specific medical condition
 
 .caution[.red[Caution!] - While helpful in obtaining background information, chatbots should not be used for diagnosis and self-treatment.]
@@ -247,4 +469,15 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 
 .right-column[
 <iframe src="chat?src=chats/synovial-chondromatosis.md"></iframe>
+]
+
+---
+
+.left-column[
+### Image Analysis
+- Identify wildlife in photographs
+]
+
+.right-column[
+<iframe src="chat?src=chats/image-analysis.md"></iframe>
 ]
