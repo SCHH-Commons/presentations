@@ -48,20 +48,31 @@ class: center, middle
 
 ---
 
+class: center, middle
+
+## AI Timeline
+
+.full[![](images/ai-history-timeline.jpg)]
+
+.attribution[
+Image ["The most complete AI history timeline image covering the most important events since 1900 to 2025"](https://commons.wikimedia.org/wiki/File:AI-History-Timeline-300dpi.jpg) provided by Tarjomyar under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license
+]
+
+---
+
 ## The Evolution of Artificial Intelligence
 
 - AI has evolved from theory to real-world applications.
 - Over 70 years of development, AI has seen cycles of **progress, setbacks, and breakthroughs**.
 - Key milestones include **symbolic reasoning, machine learning, deep learning, and generative AI**.
 - AI’s history includes **two AI winters**, where funding and interest declined.
-- The **recent surge**, especially with ChatGPT, has transformed how people interact with AI.
+- The **recent surge**, especially with the emergence of generative AI and tools like ChatGPT, has transformed how people interact with AI.
 
 ???
 ### Speaker Notes:
 - Welcome everyone and introduce the topic.
 - AI has undergone **periods of excitement and disappointment**, but recent advancements have made it more accessible.
 - This session will cover **key historical milestones** and discuss how AI is shaping the future.
-- Encourage audience engagement: *What do they associate AI with?*
 
 ---
 
@@ -173,6 +184,7 @@ class: center, middle
   - **User-friendly** – No coding required.
   - **Versatile** – Answered a broad range of questions.
   - **Conversational** – Felt more human-like.
+  - **API (Application Programming Interface) Available** - Enabling anyone to build custom applications using the underlying model.
 - Compared to **Sputnik (1957)** – a wake-up call for global AI competition.
 - AI investment **exploded** as Google, Microsoft, and startups rushed to compete.
 ]
@@ -209,27 +221,7 @@ Today, a "Sputnik moment" is used more broadly to describe any event that serves
 
 ---
 
-class: center, middle
-
-## Generative AI, Large Language Models, and Chatbots
-
-**Buckle Up!** *- We are now in a period of unprecedented AI growth and development*
-
----
-
-class: full, drop-shadow
-
-## Exponential Growth of AI
-
-![](images/1705813202586.jpg)
-
-.footnote[
-- [AI's Exponential Journey: Milestones to AGI and Beyond, Ashish Bhatia (LinkedIn, Jan 2024)](https://www.linkedin.com/pulse/ais-exponential-journey-milestones-agi-beyond-ashish-bhatia-o5lle/)
-]
-
----
-
-## The Race to AGI (and ASI) is Heating Up
+## The Race to AGI (and ASI) is On
 
 ### Artificial General Intelligence (AGI)
 - AGI can **learn, reason, and apply knowledge** across domains.
@@ -275,6 +267,26 @@ Both scenarios have profound implications for governance, ethics, economics, and
 - Disruptive Economic and Societal Impact – A sudden leap to ASI could lead to massive unemployment, shifts in power dynamics, and potential existential threats.
 - Potential for Misalignment – Without sufficient alignment work beforehand, ASI may pursue goals that are not aligned with human values.
 - Strategic Advantage – Any entity (nation, corporation, or organization) that achieves ASI first may gain an overwhelming technological dominance.
+
+---
+
+class: center, middle
+
+## Generative AI, Large Language Models, and Chatbots
+
+**Buckle Up!** *- We are now in a period of unprecedented AI growth and development*
+
+---
+
+class: full, drop-shadow
+
+## Exponential Growth of AI
+
+![](images/1705813202586.jpg)
+
+.footnote[
+- [AI's Exponential Journey: Milestones to AGI and Beyond, Ashish Bhatia (LinkedIn, Jan 2024)](https://www.linkedin.com/pulse/ais-exponential-journey-milestones-agi-beyond-ashish-bhatia-o5lle/)
+]
 
 ---
 
@@ -329,121 +341,254 @@ class: center, middle
 
 ---
 
+class: center, middle
+
+## Understanding the Context Window in AI
+
+---
+
 ## What is the Context Window?
 
-- **Defines how much text an AI model can "remember" in a single interaction.**  
-- **Measured in tokens** – one token is roughly **4 characters or 0.75 words**.  
-- **Larger context windows enable better recall** but require more computation.  
-- **Context is not long-term memory** – past conversations are forgotten after the window resets.  
-  - Some chatbots, such a ChatGPT do have a mechanism for storing key memories between chat sessions and injecting that into the context
-- **Common context sizes:**  
-  - GPT-3.5: ~4K tokens (~3,000 words)  
-  - GPT-4o: ~128K tokens (~100,000 words)  
-      - A context window of 128k tokens can accommodate the upload of 300-350 page documents for analysis
-- **Longer windows allow AI to track detailed discussions**, but responses may still degrade over time.  
-- **Workarounds include RAG, memory-enhanced models, and user summaries.**  
+- The **context window** is the amount of information an AI model can consider at once.
+- It includes everything the AI “remembers” while generating a response.
+- Think of it like a **notepad with a fixed number of lines** – if it fills up, older notes are erased to make room for new ones.
+
+## What’s Inside the Context Window?
+
+- **Prompt:** Your question or instructions.
+- **Response:** The AI’s generated reply.
+- **Chat History:** Previous messages in an ongoing conversation.
+- **Uploaded or Pasted Documents:** Any additional text the AI processes.
+
+  All of these count toward the total available space!
 
 ???
-### **Speaker Notes:**  
-- **The context window is like an AI’s short-term memory**—it defines how much previous text the model can reference in a single interaction.  
-- Tokens are **not the same as words**—they include parts of words, punctuation, and spaces.  
-- **Models with larger context windows can maintain more coherent and detailed conversations**, but they still don’t have persistent memory.  
-- **Key limitation:** Once the limit is reached, **older context gets forgotten** unless reintroduced.  
-- **Discussion Starter:** *Have you ever noticed AI "forgetting" earlier parts of a conversation?*  
----
-
-## Context Window: Limitations & Solutions
-
-### **Limitations:**
-- **Forgets old messages** – Can’t recall past interactions beyond the limit.  
-- **Compression Issues** – Summarization can miss key details in longer chats.  
-- **Response Quality Degrades** – AI may lose track of earlier details in long conversations.  
-- **Inefficient for Large Documents** – Can’t process entire books or datasets at once.  
-
-### **Solutions:**
-- **Retrieval-Augmented Generation (RAG)** – Fetches relevant info from external sources.  
-- **Chunking & Summarization** – Breaking text into smaller parts and summarizing past content.  
-- **Fine-Tuning & Long-Term Memory Systems** – Custom models trained on recurring data.  
-- **Hybrid Approaches** – Combining large context windows with real-time retrieval for improved AI performance.  
-
-???
-### **Speaker Notes:**  
-- The **context window is not the same as memory**—once older text falls out of the window, it’s gone.  
-- **Problems arise** in long conversations where AI starts to forget details.  
-- **Example:** Asking AI to summarize a 200-page book won’t work—it can only process chunks at a time.  
-- **Workarounds:**  
-  - **RAG:** Retrieves forgotten information dynamically.  
-  - **Summarization:** Helps retain key points but risks missing details.  
-  - **Fine-Tuning & Memory-Enhanced AI:** Allows AI to learn user-specific preferences over time.  
-- **Discussion Starter:** *How important is it for AI to have persistent memory?*  
+**Speaker Notes:**
+- The context window is **central** to how AI models process information.
+- It defines how much text (or input) the model can consider at once.
+- Imagine having a notepad with limited space – once it's full, you have to erase the oldest notes to write new ones.
+- The context window isn't just your latest message – it includes multiple components.
+- The AI has to fit **everything** (your input, previous chat history, AI responses, and any uploaded documents) into this limited space.
+- If the conversation is long, older messages may get **forgotten**.
 
 ---
 
-## What is Retrieval-Augmented Generation (RAG)?
+## Why Does Context Size Matter?
 
-- **Enhances LLMs with external knowledge** – dynamically retrieves relevant documents.  
-- **Bridges the gap between static models and real-time information.**  
-- **Retrieves from structured knowledge bases or web search** before generating a response.  
-- **Reduces hallucinations** – improves factual accuracy by citing sources.  
-- **More memory-efficient** – avoids needing massive parameter increases.  
-- **Customizable** – can retrieve from **private data, enterprise knowledge, or web sources**.  
-- **Useful for specialized applications** – research, enterprise knowledge, legal, and healthcare AI.  
-- **Essential for real-world AI deployment** – keeps models up-to-date and grounded in reality.  
+- **Shorter context = AI forgets faster.**
+- **Larger context = AI remembers more, but still has limits.**
+- The AI does **not** have long-term memory – it only remembers what’s in the current session.
+- When the window is full, **oldest messages get removed** to make room for new ones.
+
+## How Big is the Context Window?
+
+- Older models (GPT-3) had **4,096 tokens** (a few pages of text).
+- Newer models (GPT-4o, Claude Sonnet, and others) can handle **up to 128,000 tokens** (a small book!) or more.
+- But even large windows **still have a limit** – you can’t store unlimited history.
 
 ???
-### **Speaker Notes:**  
-- **What is RAG?** It’s a technique that enhances LLMs by **retrieving relevant knowledge before generating text**.  
-- RAG can **pull information from private knowledge bases** or **open web search results**, depending on the use case.  
-- Web search **extends RAG beyond structured data**, helping AI stay up to date.  
-- **Discussion Starter:** *When would you prefer an AI that retrieves from the web vs. a curated knowledge base?*  
+**Speaker Notes:**
+- Unlike humans, AI doesn’t have memory beyond the context window.
+- Once the limit is reached, old parts of the conversation are lost.
+- This is why you might need to **remind the AI of details** in long conversations.
+- The size of the context window has grown over time, allowing AI to consider more information at once.
+- Even at **128,000 tokens**, there’s still a limit, so long conversations or large documents may get truncated.
 
 ---
 
-## Web Search as a RAG Strategy
+## What Can AI Access in Basic Use?
 
-- **Real-Time Knowledge** – Retrieves fresh, updated information from the web.  
-- **Extends LLM Capabilities** – Overcomes the limitations of static training data.  
-- **Diverse Data Sources** – Accesses broad knowledge across many domains.  
-- **Prone to Misinformation** – Less reliable than structured, curated datasets.  
-- **SEO & Ranking Bias** – Search engine algorithms influence what data is retrieved.  
-- **Slower Than Local Retrieval** – Dependent on query latency and page indexing.  
-- **Best for Trending & Unstructured Data** – Useful for news, current events, and dynamic topics.  
-- **Hybrid Approach** – AI can combine web search with structured RAG for better accuracy.  
+- In **basic use**, an AI model can only use:
+  - Its **pretrained general knowledge** (up to its last update date).
+  - The **contents of the current context window** (prompt, chat history, documents).
+- It **does not** have access to:
+  - Information contained in private or restricted websites.
+  - Copyrighted content (e.g., books, articles, or paywalled sites).
+  - Real-time or post-cutoff-date events.
+
+In the next slides we'll look at how **RAG (Retrieval-Augmented Generation) and web search** help overcome these limitations.
+
 
 ???
-### **Speaker Notes:**  
-- **Web search extends the power of RAG**, making AI more dynamic and real-time.  
-- However, it introduces **challenges like misinformation, bias, and search engine ranking influences**.  
-- **Best use case:** When an AI assistant needs the **latest news or trending data**.  
-- **Example:** A company AI chatbot retrieving from **internal documents (RAG)** vs. an AI answering **latest stock prices (Web Search)**.  
-- **Discussion Starter:** *Would you trust AI-powered search results over Google’s traditional search? Why or why not?*  
+**Speaker Notes:**
+- AI can only generate responses based on what it was trained on and what’s in its **current session**.
+- If you ask about recent news, private databases, or proprietary content, it won’t have access unless provided in the context.
+- We’ll discuss how **RAG (Retrieval-Augmented Generation) and web search** help overcome these limits next.
 
 ---
 
-## Can AGI be Achieved with LLMs?
+## Extending the Context Window with RAG
 
-The question of whether AGI can be achieved with LLMs is a hotly debated topic. While LLMs like GPT-4, Claude, and Gemini have demonstrated remarkable capabilities, they are still far from true AGI. Let’s break it down:
+- **Retrieval-Augmented Generation (RAG)** helps AI access **up-to-date** and **private** content.
+- Instead of storing all knowledge in the model, a **RAG knowledge base** is searched in real-time.
+- Only **relevant portions** of the knowledge base are pulled into the context window, making it **effectively unlimited**.
 
-- **LLMs Lack True Understanding** – They generate text based on patterns, not real comprehension.  
-- **No Autonomous Learning** – Cannot self-improve or learn new information without retraining.  
-- **Limited Generalization** – Specialized in language but lack real-world experience or adaptability.  
-- **No Independent Goals** – LLMs don’t have self-awareness, motivations, or the ability to set objectives.  
-- **Struggles with Reasoning** – Poor at logical consistency, long-term planning, and self-correction.  
-- **Potential as a Building Block** – LLMs could contribute to AGI when combined with other AI models.  
-- **Hybrid AI Approach** – AGI may require memory, reinforcement learning, robotics, and multi-modal AI.  
-- **Uncertain Future** – Some experts predict AGI soon, others believe a new paradigm is needed.  
+## Using Web Search for Real-Time Information
+
+- AI can also be **connected to live web search** to access the latest information.
+- This helps when asking about:
+  - **Breaking news** or **recent events**
+  - **Stock prices, weather, or sports scores**
+  - **Information from websites that weren’t part of the training data**
+- Web search allows AI to go **beyond its last training update** and fetch current facts.
 
 ???
-### **Speaker Notes:**  
-- **Why LLMs aren’t AGI:** They lack real understanding, independent reasoning, and the ability to set goals.  
-- **LLMs are useful but incomplete** – they excel in language tasks but struggle with **real-world problem-solving**.  
-- **AI researchers believe** AGI will require more than just scaling LLMs—it will need **memory, learning, and multi-modal perception**.  
-- **Hybrid models** are being developed to bridge the gap, but AGI **remains a long-term challenge**.  
-- **Discussion Starter:** *Will scaling LLMs lead to AGI, or do we need an entirely new AI architecture?*  
+**Speaker Notes:**
+- RAG allows AI to pull in external, **custom** data sources when responding.
+- This means it can stay up-to-date without needing to be retrained on new data.
+- Since only **relevant** sections of a knowledge base are loaded into the context window, the AI is much more efficient.
+- Web search lets AI access information **in real-time**, unlike static knowledge bases.
+- If a question requires the latest updates (e.g., today’s stock prices), a connected search tool helps.
+- However, AI **does not automatically browse the web** unless specifically integrated with search APIs.
 
 ---
 
-## LLM Comparison (as of February 2025)
+## Custom GPTs and User-Built Knowledge Bases
+
+- **OpenAI Custom GPTs** allow users to fine-tune AI behavior and add specialized knowledge.
+- Users can create **custom knowledge bases** that feed directly into a model’s responses.
+- Combining **RAG + Custom GPTs + Web Search** creates the most powerful AI assistants.
+
+---
+
+## Examples of RAG and Web Search Enhanced Chatbots
+
+- **Using a Custom GPT**: ➤ <a href="https://chatgpt.com/g/g-6760d0e55ff481918057b4697385a94e-sun-city-hilton-head" target="_blank">Sun City Hilton Head</a>
+  - Pros:
+      - Easy to setup
+      - Works well out of the box
+  - Cons:
+      - A ChatGPT account is required
+      - Knowledge base is limited to 20 documents
+- **Using Custom Application:** ➤ <a href="https://www.schh-commons.org/" target="_blank">SCHH AI Chatbot</a>
+  - Pros:
+      - Completely customizable, including use of a custom domain
+      - Unlimited knowledge base size
+      - No external account login required for use
+  - Cons:
+      - Significant effort in development, tuning and hosting
+
+---
+
+## Key Takeaways on the LLM Context Window
+
+- **Context is everything** – AI can only respond based on what’s in the window.
+- **RAG expands AI’s effective knowledge** by retrieving only relevant data from large sources.
+- **Web search provides real-time access** to current information.
+- **Custom GPTs and knowledge bases personalize AI** for specific tasks.
+
+???
+**Speaker Notes:**
+- OpenAI’s **Custom GPTs** let users tailor AI assistants to specific needs.
+- A **user-built knowledge base** ensures AI has access to important company documents, FAQs, or internal data.
+- The best AI tools today **combine RAG, web search, and customization** for maximum utility.
+- AI alone is powerful, but **RAG, web search, and customization** make it even better.
+- Understanding **how AI retrieves and processes information** helps you get the most out of it.
+- With the right tools, AI can stay **current, relevant, and personalized**.
+
+---
+
+## Generative AI & LLMs: A Transformative Breakthrough in AI
+
+**The Game-Changer:**  Generative AI (GenAI) and Large Language Models (LLMs) have revolutionized AI, enabling machines to generate human-like text, code, images, and more.  
+
+**The Power of the Transformer:**  The **Transformer architecture**, introduced in 2017, powers LLMs by leveraging **self-attention** and **parallel processing**, allowing them to grasp complex patterns in data.  
+
+**Beyond Pattern Recognition:**  Unlike earlier AI systems that relied on strict rules or statistical methods, LLMs develop rich contextual understanding, enabling **nuanced reasoning** and **creative synthesis**.  
+
+???
+
+### Speaker Notes:
+- Generative AI (GenAI) refers to AI that can **create** new content—text, images, code, music, etc.
+- LLMs are a subset of GenAI, trained on massive text datasets to generate human-like responses.
+- The key breakthrough was the **Transformer architecture**, introduced in 2017 by Google in the paper *Attention Is All You Need*.
+- This architecture allowed AI to process vast amounts of text in parallel, making it much more efficient and powerful than previous models like RNNs or LSTMs.
+- Instead of simply retrieving information, LLMs **synthesize** responses by predicting the next word/token based on context.
+
+---
+
+## Could LLMs Lead to AGI?
+
+**A Stepping Stone, Not the Destination?**  LLMs are powerful, but they still **lack true understanding, reasoning, and self-awareness**—hallmarks of AGI.  
+
+**Bridging the Gap:**  Advances such as **multi-modal AI (text, vision, audio), memory persistence, improved reasoning, and tool use** could push LLMs closer to AGI.  
+
+**Limits of Scale?**  Some argue that simply **scaling LLMs** will eventually produce AGI, while others believe we need **new architectures, hybrid models, or breakthroughs in cognition and common sense reasoning**.  
+
+**The Open Question:**  Are LLMs an essential foundation for AGI, or will the future of AI take a **fundamentally different path**?
+
+The next 12-24 months will prove very interesting and may add some clarity around this possibility.
+
+???
+
+### Speaker Notes:
+- The big question in AI today: Can LLMs evolve into **Artificial General Intelligence (AGI)**?
+- AGI refers to an AI system that can **perform any intellectual task that a human can**, adapting and learning across domains without retraining.
+- LLMs are **impressive but limited**—they don’t truly **understand** the world; they just predict patterns in data.
+- Some researchers argue that **scaling LLMs further (bigger datasets, more compute)** will eventually lead to AGI.
+- Others believe that we need new architectures that go beyond language models—perhaps combining LLMs with **symbolic reasoning, memory, or real-world interactions**.
+
+---
+
+## The LLM Data Problem: Are We Running Out of Training Data?
+
+**The Data Hunger of LLMs**  
+- **LLMs require vast amounts of data** to be trained effectively—billions or even trillions of words.
+- The highest-performing models today have been trained on nearly **all publicly available human-generated text**: books, Wikipedia, open websites, and public codebases.
+- However, **we may be approaching a limit**—most high-quality human-written content is already being used.
+- Without new data sources, future model improvements may be **constrained by the lack of fresh, high-quality training data**.
+
+
+---
+
+## The LLM Data Problem: Possible Solutions (and Challenges)
+
+**Paywalled Content (e.g., academic journals, books, private databases)**  
+- Could provide high-quality information but raises **ethical, legal, and access concerns**.
+- Licensing agreements may make this viable, but costs could be prohibitive.
+
+**Synthetic Data (AI-generated training data)**  
+- AI models can generate text to train newer models.
+- **Risk:** Could lead to a feedback loop of lower-quality, self-referential AI output (AI training on AI-generated text).
+- Some researchers fear this could **degrade AI performance over time** instead of improving it.
+
+**The Big Question**  
+- Can LLMs continue to improve **without fundamentally new data sources**?  
+- Will we need **new approaches beyond LLMs** to push AI forward?  
+
+Certainly! Here's the improved slide with URLs for each leaderboard:  
+
+---
+
+## LLM Leaderboards  
+
+### The Rapid Evolution of LLMs  
+
+Large Language Models (LLMs) are evolving at an unprecedented pace, with frequent updates and new releases from both major tech companies and independent research teams. 
+
+The recent release of DeepSeek V3 highlights that innovation in this space is not limited to giants like Google and Microsoft—smaller teams are also making significant contributions.  
+
+### Evaluating and Ranking LLMs  
+
+With so many models available, comparing their capabilities objectively has become increasingly important. This has led to the development of LLM leaderboards—rankings based on standardized benchmarks that assess model performance across various tasks. 
+
+These benchmarks help users and researchers understand how models compare in areas like reasoning, coding, and general knowledge.  
+
+---
+
+## Notable LLM Leaderboards  
+Several leaderboards provide rankings based on different evaluation methodologies, including:  
+
+- **<a href="https://crfm.stanford.edu/helm/latest" target="_blank">HELM (Holistic Evaluation of Language Models)</a>** – Provides a comprehensive analysis of LLM strengths and weaknesses.  
+- **<a href="https://chat.lmsys.org/arena/" target="_blank">Chatbot Arena (LMSYS)</a>** – Uses direct human preference voting to rank models in real-world conversations.  
+- **<a href="https://huggingface.co/spaces/HuggingFaceH4" target="_blank">Hugging Face Open LLM Leaderboard</a>** – Ranks models based on automated benchmarks across multiple tasks.  
+- **<a href="https://github.com/lm-sys/FastChat" target="_blank">MT-Bench</a>** – Evaluates models for multi-turn dialogue quality.  
+
+These leaderboards offer valuable insights, but rankings can vary based on the chosen benchmarks and methodologies. It's essential to consider multiple perspectives when assessing an LLM’s suitability for a given use case.  
+
+---
+
+## Comparison of Popular LLMs (Feb 2025)
 
 | Model | Release | Cutoff | CW | P | MMLU | GPQA | HHEM | MM | R |
 |-------|:-------:|:------:|---:|--:|-----:|-----:|-----:|:---:|:--:|:-:|
@@ -477,6 +622,8 @@ Hughes Hallucination Evaluation Model: Developed by Vectara, HHEM is an open-sou
 
 ---
 
+exclude: true
+
 ## DeepSeek R1: The Shockwave in AI Development
 
 | **Impact Area**          | **How DeepSeek R1 Changes the AI Landscape** |
@@ -502,7 +649,7 @@ class: center, middle
 
 ## What is a Chatbot?
 
-All of the major AI developers provide chatbots for interacting with their LLMs.  Most of these are available under a *fremium* business model that offers basic services for free while charging for premium features, advanced functionality, or additional services.
+All of the major AI developers provide chatbots for interacting with their LLMs.  Most of these are available under a *Freemium* business model that offers basic services for free while charging for premium features, advanced functionality, or additional services.
 
 A chatbot is an AI-powered software application designed to simulate human-like conversations through text or voice interactions. 
 
@@ -553,7 +700,7 @@ HAL 9000 is a cautionary tale of what happens when an AI chatbot is too powerful
 
 ---
 
-## Today's AI Chatbots
+## Popular AI Chatbots (Feb 2025)
 
 | Company | Chatbot | Free Models | Memory |
 | ------- | ------- | ----------- | :----: |
@@ -574,6 +721,8 @@ HAL 9000 is a cautionary tale of what happens when an AI chatbot is too powerful
 
 ---
 
+exclude: true
+
 ## Important Considerations
 
 As AI becomes increasingly integrated into society, it raises important ethical, legal, and social questions. Concerns include
@@ -585,7 +734,7 @@ Ongoing discussions and research aim to address these challenges, promoting the 
 
 ---
 
-### AI Chatbot Data Privacy & Retention Summary (as of Feb 2025)
+### AI Chatbot Data Privacy & Retention Summary (Feb 2025)
 
 - **OpenAI (ChatGPT & API)**
     - Free & Plus Users: Conversations may be stored temporarily for abuse monitoring but are not used for training.
@@ -674,6 +823,7 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ### Meal Planning
 - 1 - Ask for the meal plan with some specific guidance
 - 2 - Get a shopping list to use directly or add to an shopping app
+- 3 - Get a step-by-step recipe for one of the meals
 ]
 
 .right-column[
@@ -752,17 +902,6 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
-### Menu Suggestion
-- Recommend a healthy meal option from a menu picture taken with a phone camera
-]
-
-.right-column[
-<iframe src="chat?src=chats/menu-recommendations.md"></iframe>
-]
-
----
-
-.left-column[
 ### Learning Something New
 - I'm interested in learning about the South Carolina Salt Marshes
 ]
@@ -778,4 +917,24 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ]
 .right-column[
 <iframe src="chat?src=chats/herbal-illustrations.md"></iframe>
+]
+
+---
+
+.left-column[
+### Learning and Fun
+- Explore Artistic Styles using AI-Generated Photos
+]
+.right-column[
+<iframe src="chat?src=chats/art-styles.md"></iframe>
+]
+
+---
+
+.left-column[
+### Photography
+- As for a critique of the composition of a photograph.
+]
+.right-column[
+<iframe src="chat?src=chats/photo-critique.md"></iframe>
 ]
