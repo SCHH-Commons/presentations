@@ -556,8 +556,6 @@ The next 12-24 months will prove very interesting and may add some clarity aroun
 - Can LLMs continue to improve **without fundamentally new data sources**?  
 - Will we need **new approaches beyond LLMs** to push AI forward?  
 
-Certainly! Here's the improved slide with URLs for each leaderboard:  
-
 ---
 
 ## LLM Leaderboards  
@@ -580,7 +578,9 @@ These benchmarks help users and researchers understand how models compare in are
 Several leaderboards provide rankings based on different evaluation methodologies, including:  
 
 - **<a href="https://crfm.stanford.edu/helm/latest" target="_blank">HELM (Holistic Evaluation of Language Models)</a>** – Provides a comprehensive analysis of LLM strengths and weaknesses.  
+- **<a href="https://llm-stats.com/" target="_blank">LLM Stats Leaderboard</a>** – Analyze and compare AI models across benchmarks, pricing, and capabilities.
 - **<a href="https://chat.lmsys.org/arena/" target="_blank">Chatbot Arena (LMSYS)</a>** – Uses direct human preference voting to rank models in real-world conversations.  
+- **<a href="https://github.com/vectara/hallucination-leaderboard" target="_blank">Hallucination Leaderboard</a>** – Public LLM leaderboard computed using Vectara's Hughes Hallucination Evaluation Model.  
 - **<a href="https://huggingface.co/spaces/HuggingFaceH4" target="_blank">Hugging Face Open LLM Leaderboard</a>** – Ranks models based on automated benchmarks across multiple tasks.  
 - **<a href="https://github.com/lm-sys/FastChat" target="_blank">MT-Bench</a>** – Evaluates models for multi-turn dialogue quality.  
 
@@ -641,9 +641,9 @@ exclude: true
 
 class: center, middle
 
-# The Rise of the Chatbot...
+## The Rise of the Chatbot...
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/256px-HAL9000.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/256px-HAL9000.svg.png" width="100px">
 
 ---
 
@@ -656,6 +656,8 @@ A chatbot is an AI-powered software application designed to simulate human-like 
 It uses natural language processing (NLP) and, in advanced cases, machine learning and large language models (LLMs) to understand queries, generate responses, and assist users in various tasks, such as customer service, information retrieval, or casual conversation.
 
 ---
+
+exclude: true
 
 ## AI from Science Fiction
 
@@ -673,6 +675,8 @@ Science fiction has long imagined AI chatbots and assistants, many of which rese
 | **Skynet**  | *The Terminator* (1984–present)  | Decision-making, automation          | Artificial Superintelligence (ASI), complete autonomy |
 
 ---
+
+exclude: true
 
 ## I'm sorry, Dave...
   
@@ -937,4 +941,14 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ]
 .right-column[
 <iframe src="chat?src=chats/photo-critique.md"></iframe>
+]
+
+---
+
+.left-column[
+### Troubleshooting
+- Assistance in diagnosing a problem with a smartphone.
+]
+.right-column[
+<iframe src="chat?src=chats/phone-troubleshooting.md"></iframe>
 ]
