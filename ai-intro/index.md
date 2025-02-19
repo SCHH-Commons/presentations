@@ -477,6 +477,21 @@ Hughes Hallucination Evaluation Model: Developed by Vectara, HHEM is an open-sou
 
 ---
 
+## DeepSeek R1: The Shockwave in AI Development
+
+| **Impact Area**          | **How DeepSeek R1 Changes the AI Landscape** |
+|--------------------------|----------------------------------------------|
+| **State-of-the-Art Performance** | Competes with top-tier models like GPT-4, Claude, and Gemini, demonstrating **high-level reasoning, coding, and multilingual fluency**. |
+| **Open-Source Disruption** | Unlike proprietary models, DeepSeek R1 is **open-source**, shifting power away from closed AI ecosystems (e.g., OpenAI, Google). |
+| **Technical Breakthroughs** | Uses **longer context windows**, **advanced RAG capabilities**, and **more efficient inference**, reducing computation costs while improving accuracy. |
+| **Chinese-Led AI Innovation** | Represents a **major advancement in AI from China**, challenging U.S.-led dominance in LLM development and accelerating international competition. |
+| **Implications for AI Regulation** | Raises concerns about **AI governance**, particularly as open-source models become as powerful as proprietary ones. |
+| **Disruption to AI Business Models** | Open-source LLMs force companies like OpenAI and Anthropic to **reevaluate pricing, APIs, and deployment strategies**. |
+| **Acceleration of AI Research** | A high-quality open-source model enables **faster innovation**, allowing independent researchers and startups to build cutting-edge applications. |
+| **Geopolitical & Ethical Considerations** | Expands AI accessibility globally but also raises concerns about **misuse, misinformation, and AI safety risks**. |
+
+---
+
 class: center, middle
 
 # The Rise of the Chatbot...
@@ -693,10 +708,74 @@ To copy the prompt text from the examples, hover over the prompt text and click 
 ---
 
 .left-column[
+### Financial Planning
+- Overview of TIPS and TIPS Ladders
+]
+
+.right-column[
+<iframe src="chat?src=chats/tips.md"></iframe>
+]
+
+---
+
+.left-column[
+### Writing Assistance
+- Help drafting a complaint letter
+]
+
+.right-column[
+<iframe src="chat?src=chats/complaint-letter.md"></iframe>
+]
+
+---
+
+.left-column[
 ### Image Analysis
 - Identify wildlife in photographs
 ]
 
 .right-column[
 <iframe src="chat?src=chats/image-analysis.md"></iframe>
+]
+
+---
+
+.left-column[
+### Menu Suggestion
+- Recommend a healthy meal option from a menu picture taken with a phone camera
+]
+
+.right-column[
+<iframe src="chat?src=chats/menu-recommendations.md"></iframe>
+]
+
+---
+
+.left-column[
+### Menu Suggestion
+- Recommend a healthy meal option from a menu picture taken with a phone camera
+]
+
+.right-column[
+<iframe src="chat?src=chats/menu-recommendations.md"></iframe>
+]
+
+---
+
+.left-column[
+### Learning Something New
+- I'm interested in learning about the South Carolina Salt Marshes
+]
+.right-column[
+<iframe src="chat?src=chats/sc-salt-marshes.md"></iframe>
+]
+
+---
+
+.left-column[
+### Learning Something New
+- I've been studying a herbal from the early 15th century that includes a number of detailed illustrations.  I'm interested in knowing how those were created.
+]
+.right-column[
+<iframe src="chat?src=chats/herbal-illustrations.md"></iframe>
 ]
