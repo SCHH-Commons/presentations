@@ -95,6 +95,7 @@
 
       /* Two-column layout */
       .left-column {
+        position: relative;
         color: #777;
         width: 20%;
         height: 92%;
@@ -106,7 +107,7 @@
       .right-column {
         width: 75%;
         float: right;
-        padding-top: 1em;
+        /* padding-top: 1em; */
       }
       a {
         text-decoration: none;
@@ -235,6 +236,36 @@
       }
       .footnote li {
         margin-top: 0;
+      }
+      .full img {
+        width: 100%;
+      }
+      .drop-shadow img {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      }
+      .left-column img {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      .caption {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        font-family: 'Roboto Condensed';
+        font-size: .75em;
+        font-weight: 700;
+        color: #777 !important;
+        text-align: center;
+      }
+      .attribution {
+        display: inline-block;
+        margin-top: 1em;
+        font-family: 'Roboto Condensed';
+        font-size: 12px;
+        font-weight: 300;
+        color: #777;
+        position: absolute;
+        bottom: 6em;
       }
     </style>
   </head>
