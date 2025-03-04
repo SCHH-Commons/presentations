@@ -23,7 +23,7 @@ The background image on this slide use different colors and brightness to repres
 
 ---
 
-exclude: false
+exclude: true
 
 ## About Me
 
