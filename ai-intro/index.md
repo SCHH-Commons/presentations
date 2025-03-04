@@ -23,7 +23,7 @@ The background image on this slide use different colors and brightness to repres
 
 ---
 
-exclude: true
+exclude: false
 
 ## About Me
 
@@ -224,7 +224,7 @@ class: full, drop-shadow
 
 ## The Future of AI – What’s Next?
 
-- AI is evolving toward **Artificial General Intelligence (AGI)**.
+- AI is ~~evolving~~ racing toward **Artificial General Intelligence (AGI)**.
   - Whether AGI (and ASI) are achievable is still a topic of some debate
   - The rate of AI progression towards AGI is also uncertain
       - Optimistic views suggest it could happen in the next 5-10 years
@@ -692,6 +692,64 @@ In upcoming slides we'll look at how techniques such as **RAG (Retrieval-Augment
 - This is why you might need to **remind the AI of details** in long conversations.
 - The size of the context window has grown over time, allowing AI to consider more information at once.
 - Even at **128,000 tokens**, there’s still a limit, so long conversations or large documents may get truncated.
+
+---
+
+class: middle center
+
+## We Need to Talk About Hallucinations...
+
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45643c79-7dff-45ba-bc56-c27a797d47a8_480x270.gif)
+
+---
+
+### What Are "Hallucinations" in LLMs?
+
+An AI hallucination is essentially the model making stuff up. It outputs text that sounds plausible and confident but isn't based on truth or reliable data. It's the AI equivalent of "confidently wrong."
+
+### Why Do LLMs Hallucinate?
+
+The root cause lies in how LLMs work. These models don't have an actual database of verified facts but instead, they generate text by predicting what words (tokens to be precise) likely follow previous words, based on patterns learned from massive training data.
+
+Because an LLM is basically a super-powerful autocomplete, it has no built-in sense of truth vs. falsehood. It doesn't actually "know" facts like a database would; it only knows how humans tend to talk about facts. It's like someone who doesn't know history but has read thousands of history books and can mimic how historians write.
+
+.footnote[Information in these slides extracted from [LLM Hallucinations Explained](https://diamantai.substack.com/p/llm-hallucinations-explained) by Nir Diamant ]
+
+---
+
+### Strategies to Mitigate Hallucinations
+
+No single solution can eliminate AI hallucinations completely (at least, not yet). Instead, developers use a combination of approaches to reduce the frequency of hallucinations and limit their impact.
+
+#### Retrieval-Augmented Generation (RAG) - Grounding the AI in Real Data
+
+One of the most effective ways to stop hallucinations is to give the LLM access to actual facts at runtime. RAG does exactly that. The idea is simple: before the model answers a question or completes a task, we fetch relevant information from an external knowledge source (like a database, documentation, or the web) and supply it to the model as additional context. This way, the LLM isn't relying solely on what's "in its head" (the training data), but it has some up-to-date, specific facts to work with.
+
+#### Prompt Engineering - Asking the Right Way to Get Reliable Answers
+
+Sometimes this can be as simple as instructing the chatbot to 
+
+> *"Answer the following question using the provided context. If the answer is not in the context or you're not sure, say 'I don't know'."*
+
+---
+
+## Hallucinations - The Bottom Line
+
+We have to be careful when using chatbots (and AI generally). 
+
+We can't blindly trust the output in high-stakes settings. 
+
+The good news is that over the past couple of years, many strategies have emerged to mitigate hallucinations. These range from improving the model's training to adding layers that ground the model's answers in reality.
+
+- According to a study published on JMIR (Journal of Medical Internet Research), the hallucination rate for GPT-3.5 in 2022 was reported to be around 39.6%
+- The most recent GPT models now have a hallucination rate under 2% (the Google Gemini model is under 1%)
+
+.footnote[
+The <a href="https://huggingface.co/spaces/vectara/leaderboard" target="_blank">Hughes Hallucination Evaluation Model (HHEM) leaderboard</a> is one tool used to measure hallucination rates in current models
+]
+
+???
+According to a study published on JMIR, the hallucination rate for GPT-3.5 in 2022 was reported to be around 39.6% when analyzing its ability to retrieve relevant research papers, indicating a high rate of generating fabricated or inaccurate information. 
 
 ---
 
@@ -1204,11 +1262,15 @@ class: example
 .left-column[
 ### Writing Assistance
 - Help drafting a complaint letter
+- You'll be in good company...
+- <a href="https://www.reddit.com/r/OpenAI/comments/1j1s76w/the_past_18_months_have_seen_the_most_rapid/#lightbox"><img src="https://preview.redd.it/the-past-18-months-have-seen-the-most-rapid-change-in-human-v0-ohkfy17afame1.png?width=1080&crop=smart&auto=webp&s=3181a820f965333d70c2ae5640e4456c038b9c36"></a>
 ]
 
 .right-column[
 <iframe src="chat?src=chats/complaint-letter.md"></iframe>
 ]
+
+???
 
 ---
 
