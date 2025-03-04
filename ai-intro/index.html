@@ -12,6 +12,33 @@
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
       body { font-family: 'Roboto'; }
+      iframe { background-color:  white; }
+
+      .example {
+        background: #F0F8FF;
+        color: #444;
+      }
+      .example h3 {
+        margin-top: 0;
+      }
+      .example h3::before {
+        content: url('images/chat.svg'); /* Replace with your actual image URL */
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        margin-right: 8px; /* Space between image and text */
+        vertical-align: middle;
+      } 
+
+      .example h3 img {
+        width: .8em;
+        height: .8em;
+        box-shadow: none;
+      }
+      .example li {
+        color: #444;
+      }
+
       h1, h2, h3 {
         font-family: 'Roboto';
         font-weight: 700;
@@ -22,7 +49,7 @@
       .remark-slide-content h3 { font-size: 1.6em; }
       .footnote {
         position: absolute;
-        bottom: 3em;
+        /* bottom: 3em; */
       }
       li p { line-height: 1.25em; }
       .red { color: #fa0000; }
@@ -156,7 +183,7 @@
         background-size: cover;
       }
       .lighten {
-        background-color: rgba(255,255,255,0.6);
+        background-color: rgba(255,255,255,0.7);
         background-blend-mode: lighten;
       }
       li {
@@ -224,6 +251,8 @@
         width: 100%;
         height: 100%;
         border: 1px solid #ddd;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       }
       .caution {
         display: inline-block;
