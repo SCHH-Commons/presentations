@@ -1163,12 +1163,38 @@ class: example
 class: example
 
 .left-column[
+### Floor plan evaluation
+- Evaluate a floor plan and ask for suggestions on how storage could be increased 
+]
+
+.right-column[
+<iframe src="chat?src=chats/floor-plan-analysis.md"></iframe>
+]
+
+---
+
+class: example
+
+.left-column[
 ### Financial Planning
 - Overview of TIPS and TIPS Ladders
 ]
 
 .right-column[
 <iframe src="chat?src=chats/tips.md"></iframe>
+]
+
+---
+
+class: example
+
+.left-column[
+### Book Conversation
+- Wide ranging chat about books and literature
+]
+
+.right-column[
+<iframe src="chat?src=chats/book-qa.md"></iframe>
 ]
 
 ---
