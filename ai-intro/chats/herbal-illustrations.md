@@ -1,3 +1,5 @@
+===
+
 I am studying a herbal from 1601, written by Carolus Clusius.  This document was written in Latin and includes a great many plant illustrations.  I am interested in learning how these illustrations were likely created.  I am including an image of a sample page for reference.
 
 ![](chats/photos/herbal-page.jpg)

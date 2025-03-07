@@ -1,3 +1,5 @@
+===
+
 I am considering a road-trip vacation to Maine this summer.  I'll be departing from my home in Sun City Hilton Head and will probably have 10-14 days for the round trip.  I would like to drive no more than 8 hours per day with frequent (every 1-2 hrs) stops.  I prefer to avoid congested areas as much as possible.  Suggest a couple of possible itineraries.
 
 ===

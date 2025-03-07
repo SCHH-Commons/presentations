@@ -55,6 +55,26 @@ A **website** is a collection of one or more web pages, usually linked together 
 
 ---
 
+## Popular Website Tools and Services
+
+There are many ways to build a website, depending on your needs and technical comfort level.  The right tool depends on your **goals**, **technical skills**, and **how much control you want** over your site. 🚀
+
+- **Beginner-Friendly Website Builders**  
+  - **Wix** – Drag-and-drop website builder, easy for beginners  
+  - **Squarespace** – Stylish templates, good for small businesses & portfolios  
+- **Content Management Systems (CMS)**  
+  - **WordPress** – Most popular CMS, flexible with themes & plugins  
+  - **Ghost** – Lightweight blogging platform, good for writers  
+- **Static Site Generators (For More Control & Speed)**  
+  - **Jekyll** – Works with GitHub Pages, great for blogs & documentation  
+  - **Eleventy (11ty)** – Simple and developer-friendly  
+- **Other Free Hosting Options**  
+  - **GitHub Pages** – Great for personal projects, integrates with Jekyll  
+  - **Netlify** – Free hosting with automated deployment  
+  - **Vercel** – Good for Next.js and modern web apps  
+
+---
+
 ## Building a Website with GitHub Pages, Jekyll, and Markdown
 
 Instead of writing complex code, we can use **simpler tools** to create and manage a website:  
@@ -145,6 +165,87 @@ By structuring your site in a blog-style format, you get a **simple, low-mainten
 
 ---
 
+class: center, middle
+
+## A Gentle Introduction to GitHub
+
+*What it is and how to use it to build a website*
+
+---
+
+## What is GitHub?  
+
+GitHub is a **free online service** for storing and managing files, especially for websites and projects.  
+
+### **Why Use GitHub?**  
+✅ **Stores your website files safely online**  
+✅ **Tracks changes** so you can go back to previous versions  
+✅ **Allows collaboration** – multiple people can work on the same project  
+✅ **Works with GitHub Pages** to **host your website for free**  
+
+Think of GitHub as a **file cabinet** for your website, where everything is organized and versioned.
+
+---
+
+## What is a Repository?  
+
+A **repository (repo)** is like a folder that stores all the files for a project.  
+
+### **In a GitHub Repository, You Can:**  
+📂 Store files – like your website content and settings  
+📜 Edit and update files – change text, images, or settings  
+🌐 Publish your site – GitHub Pages makes it live on the web  
+🔄 Track changes – see what’s been updated over time  
+
+Each website we create will have **its own repository** on GitHub.
+
+---
+
+## Creating a Repository  
+
+### **Steps to Create a New Repository:**  
+1. Go to [GitHub.com](https://github.com) and sign in.
+1. Click the green **New** button located in the top-left portion of the page.
+1. Give it a name (e.g., `my-blog`) and add a description.
+1. Choose **Public** (so GitHub Pages can host it).
+Check the **Add a README file** Checkbox.
+1. Click **Create repository**.
+
+Your repository is now ready to hold your website files! 
+
+---
+
+## Adding, Deleting, and Modifying Files  
+
+- **Adding a File**  
+  1. Open your repository on GitHub.
+  1. Click **Add file** → **Create new file**.
+  1. Enter a name (e.g., `about.md`), add some text, and click **Commit changes**.
+-  **Deleting a File**
+  1. Find the file you want to delete in your repository.
+  1. Click on it, then click the **trash can** icon.
+  1. Confirm by clicking **Commit changes**.
+- **Editing an Existing File**
+  1. Click on the file in your repository.
+  1. Click the **pencil icon** to edit.
+  1. Make your changes, then click **Commit changes**.
+
+These basic steps will let you **update and manage your website** easily!
+
+---
+
+## Next Steps: Customizing Your Website  
+
+Now that you understand GitHub basics, we will:  
+✅ **Fork** a Jekyll website to create your own.  
+✅ Modify `_config.yml` to personalize your site.  
+✅ Edit, add, and remove Markdown files for content.  
+✅ Publish your site with GitHub Pages!  
+
+Let's get started! 🚀
+
+---
+
 ## Getting Started: Forking a Website  
 
 To quickly set up your own blog-style website, we will **fork** an existing site.  
@@ -177,5 +278,3 @@ To quickly set up your own blog-style website, we will **fork** an existing site
    - View it at `yourusername.github.io/repository-name`.  
 
 After this process, you’ll have **your own personalized website** up and running! 🚀  
-
----

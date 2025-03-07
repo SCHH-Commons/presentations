@@ -1,3 +1,5 @@
+===
+
 ![](chats/photos/compass-floor-plan.png)
 Evaluate this floor plan and suggest ways in which storage space could be expanded.
 

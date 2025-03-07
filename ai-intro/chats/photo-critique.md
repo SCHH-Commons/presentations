@@ -1,3 +1,5 @@
+===
+
 I am an amateur photographer looking to improve my photos.  Please provide a critique of this photo with an emphasis on the composition.
 
 ![](chats/photos/ann-arbor-fall.jpg)
