@@ -16,7 +16,7 @@ class: center, middle
   - GitHub Pages and Jekyll
   - Markdown
 1. Building the Site
-  - Fork (Copy) a Working Site to Get Started
+  - Clone a Working Site to Get Started
   - Customize the Cloned Site
   - Adding New Content
 
@@ -57,7 +57,7 @@ A **website** is a collection of one or more web pages, usually linked together 
 
 ## Popular Website Tools and Services
 
-There are many ways to build a website, depending on your needs and technical comfort level.  The right tool depends on your **goals**, **technical skills**, and **how much control you want** over your site. 🚀
+There are many ways to build a website, depending on your needs and technical comfort level.  The right tool depends on your **goals**, **technical skills**, and **how much control you want** over your site.
 
 - **Beginner-Friendly Website Builders**  
   - **Wix** – Drag-and-drop website builder, easy for beginners  
@@ -211,7 +211,9 @@ Each website we create will have **its own repository** on GitHub.
 Check the **Add a README file** Checkbox.
 1. Click **Create repository**.
 
-Your repository is now ready to hold your website files! 
+Your repository is now ready to hold your website files!
+
+...For this class we'll use an even easier approach! -- we'll clone an existing (working) website.
 
 ---
 
@@ -237,36 +239,38 @@ These basic steps will let you **update and manage your website** easily!
 ## Next Steps: Customizing Your Website  
 
 Now that you understand GitHub basics, we will:  
-✅ **Fork** a Jekyll website to create your own.  
+✅ Clone a Jekyll website to create your own.  
 ✅ Modify `_config.yml` to personalize your site.  
 ✅ Edit, add, and remove Markdown files for content.  
 ✅ Publish your site with GitHub Pages!  
 
-Let's get started! 🚀
+Let's get started!
 
 ---
 
-## Getting Started: Forking a Website  
+## Getting Started: Cloning a Website  
 
-To quickly set up your own blog-style website, we will **fork** an existing site.  
+To quickly set up your own blog-style website, we will clone an existing site.  The website we'll be cloning is a Jekyll template that only requires minor updates for a working website.
 
-### **What Does Forking Mean?**  
-🔹 Forking creates **your own copy** of an existing GitHub repository.  
+### **What Does "Cloning" Mean?**  
+🔹 Cloning creates **your own copy** of an existing GitHub repository.  
 🔹 This lets you customize the site without affecting the original.  
 🔹 It’s an easy way to get started with Jekyll and GitHub Pages.  
 
 ### **What’s in the Starter Website?**  
-✅ A simple Jekyll blog with example posts about **<a href="https://schh-commons.github.io/schh-day-trips" target="_blank">Day Trips from SCHH</a>**  
+✅ A simple Jekyll blog with example posts  
 ✅ A basic layout, already set up for you.  
 ✅ Configurable settings for personalization.  
 
 ---
 
-## Steps to Fork and Customize Your Website  
+## Overview of Steps to Create Your Website  
 
-1. **Fork the Repository**  
-   - Go to the GitHub page of the starter site.  
-   - Click the **Fork** button (or use the "Use this template" option).  
+1. **Clone the Repository**  
+   - Go to the GitHub repository page of one of the starter sites.
+       - https://github.com/SCHH-Commons/website-template, or
+       - https://github.com/SCHH-Commons/schh-day-trips
+   - Click the green **Use this template** button located in the top-right section of the page and then select the **Create a new repository** option.
    - This creates a copy in **your own GitHub account**.  
 1. **Modify the `_config.yml` File**  
    - Update site title, description, and other settings.  
@@ -277,4 +281,13 @@ To quickly set up your own blog-style website, we will **fork** an existing site
    - GitHub Pages will automatically generate your website.  
    - View it at `yourusername.github.io/repository-name`.  
 
-After this process, you’ll have **your own personalized website** up and running! 🚀  
+After this process, you’ll have **your own personalized website** up and running!
+
+---
+
+## Detailed Instructions
+
+Each of the stater templates contains a `README.md` file in the repository root directory.
+
+The README.md file provides more detailed instructions for setting up and maintaining your site.
+
