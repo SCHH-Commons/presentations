@@ -18,7 +18,13 @@ class: center, middle
 1. Building the Site
   - Clone a Working Site to Get Started
   - Customize the Cloned Site
-  - Adding New Content
+  - Adding New Posts
+1. Formatting Posts with Markdown
+1. Adding External Content using Iframes
+  - Photo
+  - Video
+  - Map
+  - Calendar
 
 ---
 
@@ -112,10 +118,13 @@ A **blog-style website** organizes content into a series of posts, usually displ
 - Automatically generating a homepage that lists recent posts.  
 
 ### Why Use Jekyll?  
-Jekyll is a **simple website generator** that turns plain text files (Markdown) into a full website. It’s popular for blogs because:  
+[Jekyll](https://jekyllrb.com/) is a **popular website generator** that turns plain text files (Markdown) into a full website. It’s popular for blogs because:  
 - It **automates** the creation of blog posts and pages.  
 - It uses **templates**, so posts look consistent.  
-- It works with **GitHub Pages**, making publishing easy.  
+- It works with **GitHub Pages**, making publishing easy. 
+- It has a large ecosystem of developers and tools
+
+For this website starter I've stripped Jekyll's default [minima](https://github.com/jekyll/minima) theme down to its essential elements providing an out-of-the-box configuration that is easy to setup and maintain while still providing many useful features.
 
 ---
 
@@ -252,7 +261,7 @@ Let's get started!
 
 To quickly set up your own blog-style website, we will clone an existing site.  The website we'll be cloning is a Jekyll template that only requires minor updates for a working website.
 
-### **What Does "Cloning" Mean?**  
+### What is Meant by "Cloning"?
 🔹 Cloning creates **your own copy** of an existing GitHub repository.  
 🔹 This lets you customize the site without affecting the original.  
 🔹 It’s an easy way to get started with Jekyll and GitHub Pages.  
