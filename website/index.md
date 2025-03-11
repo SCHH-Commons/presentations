@@ -28,11 +28,11 @@ class: center, middle
 
 ---
 
-exclude: true
+exclude: false
 
 ## About Me
 
-**Married, father of 6 (including triplets), retired in 2024**
+**Married, father of 6 (including triplets), retired to SCHH in 2024**
 
 **+45 years in software engineering, in both hands-on and leadership roles**
 - 9 years in the US Air Force
@@ -248,12 +248,11 @@ These basic steps will let you **update and manage your website** easily!
 ## Next Steps: Customizing Your Website  
 
 Now that you understand GitHub basics, we will:  
+
 ✅ Clone a Jekyll website to create your own.  
 ✅ Modify `_config.yml` to personalize your site.  
 ✅ Edit, add, and remove Markdown files for content.  
 ✅ Publish your site with GitHub Pages!  
-
-Let's get started!
 
 ---
 
@@ -267,6 +266,7 @@ To quickly set up your own blog-style website, we will clone an existing site.  
 🔹 It’s an easy way to get started with Jekyll and GitHub Pages.  
 
 ### **What’s in the Starter Website?**  
+
 ✅ A simple Jekyll blog with example posts  
 ✅ A basic layout, already set up for you.  
 ✅ Configurable settings for personalization.  
@@ -299,4 +299,6 @@ After this process, you’ll have **your own personalized website** up and runni
 Each of the stater templates contains a `README.md` file in the repository root directory.
 
 The README.md file provides more detailed instructions for setting up and maintaining your site.
+
+**Click here and let's get started!** - [https://github.com/SCHH-Commons/website-template](https://github.com/SCHH-Commons/website-template)
 
