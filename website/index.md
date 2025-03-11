@@ -59,6 +59,11 @@ Web pages are stored on **servers** (computers connected to the internet). When 
 
 A **website** is a collection of one or more web pages, usually linked together so users can navigate between them.  
 
+???
+As of January 2025
+- approx 3 billion people have access to the internet
+- there are approx 1.2 billion websites, although ony 17% are maintained
+
 ---
 
 ## Popular Website Tools and Services
@@ -89,6 +94,11 @@ Instead of writing complex code, we can use **simpler tools** to create and mana
 - **GitHub Pages** – A free hosting service that automatically publishes the website online.  
 
 This approach lets us build a professional-looking website **without needing to code in HTML, CSS, or JavaScript**.  
+
+???
+As of Jan 2025
+- 150 million accounts on GitHub
+- 420 million repositories
 
 ---
 
