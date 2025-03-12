@@ -219,6 +219,8 @@ Both scenarios have **profound implications** for governance, ethics, economics,
 
 ---
 
+exclude: true
+
 ## AI from Science Fiction
 
 Science fiction has long imagined AI assistants, many of which resemble today’s conversational AI. Some of these fictional AIs share similarities with modern LLMs, while others depict more advanced forms of AI, like AGI or ASI.
@@ -235,6 +237,8 @@ Science fiction has long imagined AI assistants, many of which resemble today’
 | **Skynet**  | *The Terminator* (1984–present)  | Decision-making, automation          | Artificial Superintelligence (ASI), complete autonomy |
 
 ---
+
+exclude: true
 
 ## I'm sorry, Dave...
 
@@ -260,6 +264,8 @@ Other Sci-Fi Chatbots:
 HAL 9000 is a cautionary tale of what happens when an AI chatbot is too powerful and misaligned—a theme relevant in today’s discussions on AGI safety.
 
 ---
+
+exclude: true
 
 ### The HAL 9000
 
@@ -296,111 +302,24 @@ class: center, middle
 
 ---
 
+## Generative AI & LLMs: A Transformative Breakthrough
 
-## Generative AI & LLMs: A Transformative Breakthrough in AI
-
-**The Game-Changer:**  Generative AI (GenAI) and Large Language Models (LLMs) have revolutionized AI, enabling machines to generate human-like text, code, images, and more.  
-
-**The Power of the Transformer:**  The **Transformer architecture**, introduced in 2017, powers LLMs by leveraging **self-attention** and **parallel processing**, allowing them to grasp complex patterns in data.  
-
-**Beyond Pattern Recognition:**  Unlike earlier AI systems that relied on strict rules or statistical methods, LLMs develop rich contextual understanding, enabling **nuanced reasoning** and **creative synthesis**.  
-
-???
-
-### Speaker Notes:
-- Generative AI (GenAI) refers to AI that can **create** new content—text, images, code, music, etc.
-- LLMs are a subset of GenAI, trained on massive text datasets to generate human-like responses.
-- The key breakthrough was the **Transformer architecture**, introduced in 2017 by Google in the paper *Attention Is All You Need*.
-- This architecture allowed AI to process vast amounts of text in parallel, making it much more efficient and powerful than previous models like RNNs or LSTMs.
-- Instead of simply retrieving information, LLMs **synthesize** responses by predicting the next word/token based on context.
-
----
-
-exclude: true
-
-## From Transformers to Generative AI
-
-### How "Attention Is All You Need" Led to LLMs
-
-- **Transformer Architecture (2017)**
-  - Introduced **self-attention**, eliminating reliance on recurrence (RNNs).  
-  - Enabled **scalability** and efficient training on massive datasets.  
-- **Breakthrough NLP Models**
-  - **BERT (2018)** → Understanding context in language.  
-  - **GPT-2 (2019)** → Early generative capabilities.  
-  - **GPT-3 (2020)** → Large-scale, human-like text generation.  
-  - **ChatGPT, GPT-4, Bard, Claude, etc.** → Real-world AI applications.  
--- **Generative AI Revolution**
-  - **Text**: Chatbots, content creation, code generation.  
-  - **Images**: DALL·E, Midjourney.  
-  - **Audio & Video**: AI-generated voices, deepfakes.  
-
-**Key Takeaway**  
-*"Attention Is All You Need" wasn’t just a paper—it was the foundation of today’s AI revolution, powering the generative AI boom we see today.*  
-
----
-
-exclude: true
-
-## What is Generative AI?
-
-Generative AI refers to artificial intelligence that can create new content—such as text, images, music, and code—based on patterns learned from vast amounts of data.  
-
-**Key Features:**  
-- Learns from existing data  
-- Generates human-like responses and creative outputs  
-- Can adapt and improve over time  
-
-**Examples:**  
-- **Text:** ChatGPT (OpenAI), Claude (Anthropic)  
-- **Images:** DALL·E (OpenAI), Midjourney  
-- **Music:** Jukebox (OpenAI)  
-- **Code:** Copilot (GitHub + OpenAI)  
-
----
-
-exclude: true
-
-## How Does Generative AI Work?
-
-**Core Technologies:**  
-- **Neural Networks:** Mimics human brain learning patterns  
-- **Transformers (e.g., GPT):** Predicts and generates sequences  
-- **Diffusion Models:** Used for generating high-quality images
-- **GANs (Generative Adversarial Networks):** Used for highly realistic image, video, and audio synthesis
-
-GANs once dominated in image generation but diffusion models are increasingly preferred
-
-**Process Flow:**  
-- Trains on large datasets (text, images, etc.)  
-- Learns underlying structures and relationships  
-- Generates new, contextually relevant content based on user prompts  
-
-**Impact:** Transforming industries like education, healthcare, marketing, and entertainment!
+- **What is Generative AI?**  
+  - Generative AI refers to **AI systems that create new content**—text, images, code, music, and more—rather than just analyzing existing data.  
+- **The Game-Changer**  
+  - Generative AI and Large Language Models (LLMs) have **redefined AI**, enabling machines to **produce human-like responses, automate tasks, and assist in creative work.**  
+- **The Power of the Transformer**  
+  - LLMs are built on the **Transformer architecture** (introduced in 2017), which uses **self-attention** and **parallel processing** to detect complex patterns and scale efficiently.  
+- **Beyond Pattern Recognition**  
+  - Unlike earlier AI systems bound by **strict rules** or **basic statistics**, LLMs develop **contextual understanding, reasoning, and creative synthesis**—making AI more **adaptive and intelligent** than ever before.  
 
 ???
 
-### **Key Differences Between GANs and Diffusion Models**
-| Feature | GANs (Generative Adversarial Networks) | Diffusion Models |
-|---------|---------------------------------|-----------------|
-| **How It Works** | Uses two competing networks (Generator vs. Discriminator) | Gradually adds and removes noise to refine generated content |
-| **Strengths** | Fast generation, realistic images | Higher-quality and diverse outputs |
-| **Weaknesses** | Mode collapse (lack of variety), unstable training | Slow generation, computationally expensive |
-| **Best For** | Deepfakes, super-resolution, real-time applications | AI art, photorealistic synthesis, high-fidelity image generation |
-
-### **Why Are Diffusion Models Becoming More Popular?**
-✅ **Better Quality & Diversity:** Unlike GANs, diffusion models don’t suffer from "mode collapse," which causes GANs to generate repetitive images.  
-✅ **More Stable Training:** GANs require fine-tuning to balance the generator and discriminator, while diffusion models are more robust.  
-✅ **Superior High-Resolution Images:** Models like **Stable Diffusion, DALL·E, and Midjourney** produce highly detailed, photorealistic images that GANs struggle to match.  
-
-### **Are GANs Still Useful?**
-Yes! While **diffusion models are dominating AI-generated art**, **GANs remain strong in applications requiring speed and efficiency**, such as:
-- **Deepfake videos & face-swapping**  
-- **AI-powered image upscaling (Super-resolution GANs - ESRGAN)**  
-- **Style transfer & animation**  
-- **Real-time AI applications**  
-
-In short, **diffusion models are replacing GANs in some areas (especially generative art), but GANs are still useful for certain real-time and efficiency-focused applications.**  
+### **Talking Points:**  
+- **Definition first**: Generative AI differs from traditional AI because it **creates** new content, rather than just classifying or predicting based on existing data.  
+- **Real-world impact**: LLMs power chatbots, assist in research, write code, and generate human-like conversations.  
+- **Why Transformers matter**: The self-attention mechanism allows LLMs to process information more effectively, making them far superior to earlier AI models.  
+- **The big shift**: Older AI relied on predefined rules; LLMs can learn, adapt, and even generate new ideas. This is what makes them so powerful.  
 
 ---
 
@@ -464,9 +383,7 @@ Synthetic Data (AI-generated training data)
 
 ---
 
-## Understanding the Context Window in AI
-
-### What Can AI Access in Basic Use?
+### What Can LLMs Access in Basic Use?
 
 - In **basic use**, an AI model can only use:
   - Its **pretrained general knowledge** (up to its last update date).
@@ -609,6 +526,38 @@ Check the [Hughes Hallucination Evaluation Model (HHEM) leaderboard](https://hug
 
 ---
 
+## Emergent Behaviors in LLMs
+
+### What Are Emergent Behaviors?
+- Unexpected capabilities that **arise as models scale**, not explicitly programmed.  
+- Behaviors that were **absent in smaller models** but appear in larger ones.  
+- Often arise **without clear understanding** of how or why they emerge.  
+
+### Examples of Some Emergent Behaviors
+
+| **Emergent Ability**        | **Description** |
+|----------------------------|------------------------------------------------|
+| **In-Context Learning**     | Can learn and apply new information *within a single conversation* without retraining. |
+| **Mathematical Reasoning**  | Shows improved problem-solving skills for complex calculations. |
+| **Code Generation & Debugging** | Generates working code, identifies errors, and suggests fixes. |
+| **Multimodal Understanding** | Interprets and relates text, images, and data seamlessly. |
+| **Creative Writing & Style Imitation** | Mimics writing styles and produces original, nuanced content. |
+
+.footnote[Emergence discussed in: [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)]  
+
+???
+
+**Talking Points:**  
+- **Emergent behaviors are surprising**—they arise when models get large enough, not from direct programming.  
+- For example, early LLMs struggled with **math and reasoning**, but newer models **solve equations** and even debug code.  
+- **In-context learning** is powerful—AI can "pick up" knowledge during a chat, adapting dynamically.  
+- **Multimodal models (like GPT-4V)** can **interpret images alongside text**, expanding AI’s capabilities beyond words.  
+- These behaviors indicate that **as models scale, they develop new, sometimes unpredictable abilities.**  
+
+---
+
+exclude: true
+
 ## LLM Leaderboards  
 
 ### The Rapid Evolution of LLMs  
@@ -625,6 +574,8 @@ These benchmarks help users and researchers understand how models compare in are
 
 ---
 
+exclude: true
+
 ## Notable LLM Leaderboards  
 Several leaderboards provide rankings based on different evaluation methodologies, including:  
 
@@ -639,6 +590,8 @@ Several leaderboards provide rankings based on different evaluation methodologie
 These leaderboards offer valuable insights, but rankings can vary based on the chosen benchmarks and methodologies. It's essential to consider multiple perspectives when assessing an LLM’s suitability for a given use case.  
 
 ---
+
+exclude: true
 
 ## Comparison of Popular LLMs (Feb 2025)
 
@@ -691,21 +644,27 @@ exclude: true
 
 ---
 
-class: center, middle
+## The Chatbot: Your Window into an LLM
 
-## The Rise of the Chatbot...
+- **What is a Chatbot?**
+  - Computer app that **simulates human-like conversations** via text or voice.  
+  - Uses **Natural Language Processing (NLP)** and, in advanced cases, **machine learning and LLMs** to:  
+      - Understand queries  
+      - Generate relevant responses  
+      - Assist with tasks like **customer service, research, and casual conversation**  
+- **How Chatbots Connect to LLMs**
+  - **All major AI developers** provide chatbots as user-friendly interfaces to their LLMs.  
+  - Typically offered under a **freemium model**—basic access is free, while premium features require payment.  
+  - A chatbot doesn’t "think" independently—it **translates human input into machine-readable language** and relays responses from an LLM.  
+- **Key Takeaway →** **Chatbots are the human gateway to LLMs**—turning complex AI into an intuitive, conversational experience.  
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/256px-HAL9000.svg.png" width="100px">
+???
 
----
-
-## What is a Chatbot?
-
-All of the major AI developers provide chatbots for interacting with their LLMs.  Most of these are available under a *Freemium* business model that offers basic services for free while charging for premium features, advanced functionality, or additional services.
-
-A chatbot is an AI-powered software application designed to simulate human-like conversations through text or voice interactions. 
-
-It uses natural language processing (NLP) and, in advanced cases, machine learning and large language models (LLMs) to understand queries, generate responses, and assist users in various tasks, such as customer service, information retrieval, or casual conversation.
+### **Talking Points:**  
+- **Why chatbots exist:** LLMs process vast amounts of data but need an **accessible interface** for users.  
+- **Freemium model:** Free access to basic AI, but premium versions offer **faster processing, priority access, or advanced features**.  
+- **Think of chatbots as interpreters**—they translate user input into structured queries, fetch AI responses, and present them in a conversational way.  
+- **Big picture:** As AI advances, chatbots will become even more natural, **blurring the line between human-AI interaction**.  
 
 ---
 
@@ -727,19 +686,6 @@ It uses natural language processing (NLP) and, in advanced cases, machine learni
 .footnote[
 - Memory: Preserves key memories between chats and inserts into chat context
 ]
-
----
-
-exclude: true
-
-## Important Considerations
-
-As AI becomes increasingly integrated into society, it raises important ethical, legal, and social questions. Concerns include
-- data privacy, 
-- job displacement due to automation, and 
-- ensuring that AI systems operate fairly and without bias. 
-
-Ongoing discussions and research aim to address these challenges, promoting the responsible development and deployment of AI technologies.
 
 ---
 
@@ -766,268 +712,8 @@ Ongoing discussions and research aim to address these challenges, promoting the 
 
 ---
 
-## Chatbot Prompting
-
-A good chatbot prompt is clear, concise, specific, and provides enough context to guide the AI model towards generating a relevant and accurate response; it should be phrased in a way that is easy for the chatbot to understand, avoiding ambiguity and unnecessary jargon, while also potentially including details like the desired tone or format of the answer. 
-
-Key elements of a good chatbot prompt:
-- **Clarity:** Use simple language and avoid complex sentence structures. 
-- **Specificity:** Clearly state what information you need, including important details and parameters. 
-- **Context:** Provide relevant background information to help the chatbot understand the situation. 
-- **Conciseness:** Keep the prompt short and to the point, focusing on the essential elements. 
-- **Appropriate Tone:** Set the tone for the response by indicating whether you want a formal, casual, or informative answer. 
-
----
-
-## Chatbot Prompting
-
-### Examples of good chatbot prompts:
-- "Explain the concept of artificial intelligence in simple terms." 
-- "Recommend a family-friendly restaurant near downtown Chicago." 
-- "Write a short poem about the beauty of nature, using imagery of a sunset." 
-- "What are the side effects of taking medication X?" 
-- "Summarize the key points of this article about climate change." 
-
-### What to avoid in a chatbot prompt:
-- Ambiguity: "Tell me something interesting" (too vague) 
-- Jargon: "What is the ROI of this marketing campaign?" (may not be understood by the chatbot) 
-- Open-ended questions: "What do you think about this?" (may lead to irrelevant responses) 
-- Excessive complexity: "Provide a detailed analysis of the economic impact of the recent trade war, including historical data and potential future scenarios." (too much information at once) 
-
----
-
 class: center, middle
 
 ## Chatbot Examples
 
----
-
-
-## Examples
-
-In the following slides, chatbot examples are provided for a variety of everyday scenarios.  
-
-Each slide includes the conversation output from an actual chatbot session.  Users are encouraged to
-copy the prompt(s) from each example and paste them into a live chatbot session.
-
-Try changing the prompt to see how the responses change.
-
-Note that even when using the exact prompt(s) included in the example chat, the chatbot output will likely be somewhat different.  This is both a reflection of the specific chatbot used (ChatGPT, Claude, etc) and the fact that LLM responses are designed to produce some variation.
-
-To copy the prompt text from the examples, hover over the prompt text and click on the copy icon that will appear below the prompt.  You can then paste the text into the input box in your chatbot of choice.
-
-.footnote[ChatGPT (gpt-4o model) was used in in the creation of these examples.]
-
----
-
-class: example
-
-.left-column[
-### Simple Chat
-- Requesting information about snakes around SCHH
-]
-
-.right-column[
-<iframe src="chat?src=chats/snakes.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Meal Planning 
-- Ask for a one-week meal plan for two, providing specific instructions 
-- Get a shopping list for purchasing the needed ingredients
-- Get a step-by-step recipe for one of the meals
-]
-
-.right-column[
-<iframe src="chat?src=chats/meal-planning.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Vacation Planning 
-- Ask for possible itineraries for a Maine road-trip vacation
-- Ask a follow-up question about where to get good lobster rolls
-]
-
-.right-column[
-<iframe src="chat?src=chats/vacation-planning.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Medical Information
-- Ask for information on a specific medical condition
-
-.caution[.red[Caution!] - While helpful in obtaining background information, chatbots should not be used for diagnosis and self-treatment.]
-]
-
-.right-column[
-<iframe src="chat?src=chats/synovial-chondromatosis.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Floor plan evaluation
-- Evaluate a floor plan and ask for suggestions on how storage could be increased 
-]
-
-.right-column[
-<iframe src="chat?src=chats/floor-plan-analysis.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Financial Planning
-- Overview of TIPS and TIPS Ladders
-]
-
-.right-column[
-<iframe src="chat?src=chats/tips.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Book Conversation
-- Wide ranging chat about books and literature
-]
-
-.right-column[
-<iframe src="chat?src=chats/book-qa.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Writing Assistance
-- Help drafting a complaint letter
-- You'll be in good company...
-- <a href="https://www.reddit.com/r/OpenAI/comments/1j1s76w/the_past_18_months_have_seen_the_most_rapid/#lightbox"><img src="https://preview.redd.it/the-past-18-months-have-seen-the-most-rapid-change-in-human-v0-ohkfy17afame1.png?width=1080&crop=smart&auto=webp&s=3181a820f965333d70c2ae5640e4456c038b9c36"></a>
-]
-
-.right-column[
-<iframe src="chat?src=chats/complaint-letter.md"></iframe>
-]
-
-???
-
----
-
-class: example
-
-.left-column[
-### Image Analysis
-- Identify wildlife in photographs
-]
-
-.right-column[
-<iframe src="chat?src=chats/image-analysis.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Menu Suggestion
-- Recommend a healthy meal option from a menu picture taken with a phone camera
-]
-
-.right-column[
-<iframe src="chat?src=chats/menu-recommendations.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Learning Something New
-- I'm interested in learning about the South Carolina Salt Marshes
-]
-.right-column[
-<iframe src="chat?src=chats/sc-salt-marshes.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Learning Something New
-- I've been studying a herbal from the early 15th century that includes a number of detailed illustrations.  I'm interested in knowing how those were created.
-]
-.right-column[
-<iframe src="chat?src=chats/herbal-illustrations.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Learning and Fun
-- Explore Artistic Styles using AI-Generated Photos
-]
-.right-column[
-<iframe src="chat?src=chats/art-styles.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Photography
-- As for a critique of the composition of a photograph.
-]
-.right-column[
-<iframe src="chat?src=chats/photo-critique.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Troubleshooting
-- Assistance in diagnosing a problem with a smartphone.
-]
-.right-column[
-<iframe src="chat?src=chats/phone-troubleshooting.md"></iframe>
-]
-
----
-
-class: example
-
-.left-column[
-### Deep Research
-- **Research topic:** *Understanding our Social Security System,
-current problems, and possible solutions*
-- Uses ChatGPT's **Deep research** mode to perform
-- This example took 12 minutes to run
-]
-.right-column[
-<iframe src="chat?src=chats/deep-research-ss.md"></iframe>
-]
+[https://www.schh-commons.org/chatbot-examples](https://www.schh-commons.org/chatbot-examples)

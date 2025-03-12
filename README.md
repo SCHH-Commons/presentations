@@ -1,2 +1,3 @@
-- [Artificial Intelligence Introduction to SCHH Computer Club](ai-intro)
+- [Artificial Intelligence Introduction (2hr class version)](ai-intro)
+- [Artificial Intelligence Introduction (1hr CCH version)](ai-intro-cch)
 - [Build Your Own Website](website)
