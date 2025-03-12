@@ -144,32 +144,37 @@ class: full, drop-shadow
 ]
 ---
 
-## The Future of AI – What’s Next?
+### The Road to AGI & Beyond
+- AI is **rapidly advancing** toward **Artificial General Intelligence (AGI)**, but timelines remain uncertain.  
+  - Some experts predict AGI within **5-10 years**, while others believe progress may stall until the next breakthrough.  
+  - Whether **AGI (or ASI)** is achievable remains a subject of debate.  
 
-- AI is ~~evolving~~ racing toward **Artificial General Intelligence (AGI)**.
-  - Whether AGI (and ASI) are achievable is still a topic of some debate
-  - The rate of AI progression towards AGI is also uncertain
-      - Optimistic views suggest it could happen in the next 5-10 years
-      - It's also possible progress stalls until another breakthrough occurs (perhaps we even experience another AI winter)
-- **Key trends shaping AI:**  
-  - AI in **healthcare** (diagnostics, drug discovery).
-  - **Automation** (job displacement, robotics).
-  - AI in **creativity** (art, writing, music).
-  - **Ethical debates** (bias, misinformation, privacy concerns).
-  - **Government regulation** (global policies being debated).
-  - The potential for **Artificial Superintelligence (ASI)**.
+### Key Trends Shaping AI’s Future
+| **Trend**       | **Impact** |
+|----------------|------------------|
+| **Healthcare** | AI-powered diagnostics, drug discovery, and personalized medicine. |
+| **Automation** | Job displacement, robotics, and workforce transformation. |
+| **Creativity** | AI-generated art, writing, and music reshaping creative fields. |
+| **Ethics** | Ongoing concerns around bias, misinformation, and privacy. |
+| **Regulation** | Governments worldwide are debating AI policies and oversight. |
+| **ASI Potential** | The long-term implications of AI surpassing human intelligence. |
+
+**Key Takeaway** AI’s future is filled with **possibilities and uncertainties**—from reshaping industries to redefining intelligence itself.  The question isn’t just **when** AGI will arrive, but **how we’ll adapt to its impact.**  
 
 ???
-### Speaker Notes:
-- AI’s future raises **big questions** about **ethics, employment, and regulation**.
-- The **debate over AGI** is heating up—will AI surpass human intelligence?
-- **Discussion Starter:** *What excites you most about AI’s future?*
+
+### **Talking Points:**  
+- **AGI remains a moving target**—some think we’re close, others believe we need new breakthroughs.  
+- **AI’s impact is already massive**, even without AGI—healthcare, automation, and creativity are seeing huge transformations.  
+- **Ethical and regulatory challenges** are just as important as technical progress.  
+- **Superintelligence (ASI) is the big unknown**—if we get there, what happens next?  
+- **Final thought:** AI’s future isn’t just about **technology**—it’s about how society **adapts and governs** its impact.  
 
 ---
 
 ## **Artificial General Intelligence (AGI)**  
 
-AGI is AI that can **learn, reason, and apply knowledge** across different domains, much like a human.  
+**AGI** is AI that can **learn, reason, and apply knowledge** across different domains, much like a human.  
 
 ### Key Distinctions
 - **Today’s AI ≠ AGI** → Current AI remains **task-specific** and lacks true general intelligence.  
@@ -417,66 +422,9 @@ Synthetic Data (AI-generated training data)
 
 ---
 
-class: middle center
-
-## Hallucinations...
-
-![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45643c79-7dff-45ba-bc56-c27a797d47a8_480x270.gif)
-
----
-
-## AI Hallucinations: What & Why?
-
-### What Are "Hallucinations" in LLMs? 
-- AI hallucinations occur when a model **generates plausible but false information**—it’s *confidently wrong*.  
-- LLMs **don’t store verified facts** like a database; they predict text based on patterns in their training data.  
-- They mimic human writing about facts but **don’t "know" truth from falsehood**.  
-- Think of it like someone who hasn’t studied history but has read thousands of history books and sounds knowledgeable.  
-
-📌 **Key Insight:**  
-Because LLMs work like **super-powered autocomplete**, they sometimes fill in gaps with incorrect but plausible-sounding details.  
-
-.footnote[Source: [LLM Hallucinations Explained](https://diamantai.substack.com/p/llm-hallucinations-explained) by Nir Diamant]  
-
-???
-
-**Talking Points:**  
-- AI models generate responses by predicting likely words based on training data.  
-- They don’t verify facts like a traditional database.  
-- If there's missing data, they fill in gaps—sometimes correctly, sometimes not.  
-- This is why they can confidently make things up.  
-
----
-
-## Reducing Hallucinations
-
-### Mitigation Strategies 
-
-- **Retrieval-Augmented Generation (RAG):** Fetches real-world data (e.g., from a database or documentation) **before** generating a response.  
-- **Prompt Engineering:** Improves reliability by instructing AI to only use provided context and admit uncertainty.  - *"Answer using the given context. If unsure, say 'I don’t know'."*  
-
-### Hallucinations: Where Are We Now? 
-- In **2022**, GPT-3.5 had a **39.6% hallucination rate** in research retrieval tasks (*JMIR study*).  
-- **Today**, the latest models have **<2% hallucination rates** (Google Gemini is **<1%**).  
-- Improvements in **training, grounding, and evaluation** are making AI **more reliable**.  
-
-📊 **Tracking Hallucination Rates:**  
-Check the [Hughes Hallucination Evaluation Model (HHEM) leaderboard](https://huggingface.co/spaces/vectara/leaderboard) for real-time AI accuracy.  
-
-???
-
-**Talking Points:**  
-- No single fix, but multiple strategies help.  
-- RAG reduces hallucinations by supplying real-time, external facts.  
-- Better prompting can prevent AI from guessing when unsure.  
-- AI accuracy is improving significantly—latest models hallucinate much less than earlier ones.  
-- We should still verify AI-generated content in critical use cases.  
-
----
-
 ## Overcoming LLM Limitations with RAG & Custom GPTs
 
-- **Challenges in Standard AI Chatbots**  
+- **Challenges in Current LLMs**  
   - **Limited Knowledge** - Trained on fixed data, missing new/proprietary info
   - **Hallucinations** - Generates plausible but incorrect responses
   - **Lack of Real-Time Data** -No access to live updates (news, stock prices, etc.). |
@@ -553,6 +501,63 @@ Check the [Hughes Hallucination Evaluation Model (HHEM) leaderboard](https://hug
 - **In-context learning** is powerful—AI can "pick up" knowledge during a chat, adapting dynamically.  
 - **Multimodal models (like GPT-4V)** can **interpret images alongside text**, expanding AI’s capabilities beyond words.  
 - These behaviors indicate that **as models scale, they develop new, sometimes unpredictable abilities.**  
+
+---
+
+class: middle center
+
+## Hallucinations...
+
+![](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45643c79-7dff-45ba-bc56-c27a797d47a8_480x270.gif)
+
+---
+
+## AI Hallucinations: What & Why?
+
+### What Are "Hallucinations" in LLMs? 
+- AI hallucinations occur when a model **generates plausible but false information**—it’s *confidently wrong*.  
+- LLMs **don’t store verified facts** like a database; they predict text based on patterns in their training data.  
+- They mimic human writing about facts but **don’t "know" truth from falsehood**.  
+- Think of it like someone who hasn’t studied history but has read thousands of history books and sounds knowledgeable.  
+
+📌 **Key Insight:**  
+Because LLMs work like **super-powered autocomplete**, they sometimes fill in gaps with incorrect but plausible-sounding details.  
+
+.footnote[Source: [LLM Hallucinations Explained](https://diamantai.substack.com/p/llm-hallucinations-explained) by Nir Diamant]  
+
+???
+
+**Talking Points:**  
+- AI models generate responses by predicting likely words based on training data.  
+- They don’t verify facts like a traditional database.  
+- If there's missing data, they fill in gaps—sometimes correctly, sometimes not.  
+- This is why they can confidently make things up.  
+
+---
+
+## Reducing Hallucinations
+
+### Mitigation Strategies 
+
+- **Retrieval-Augmented Generation (RAG):** Fetches real-world data (e.g., from a database or documentation) **before** generating a response.  
+- **Prompt Engineering:** Improves reliability by instructing AI to only use provided context and admit uncertainty.  - *"Answer using the given context. If unsure, say 'I don’t know'."*  
+
+### Hallucinations: Where Are We Now? 
+- In **2022**, GPT-3.5 had a **39.6% hallucination rate** in research retrieval tasks (*JMIR study*).  
+- **Today**, the latest models have **<2% hallucination rates** (Google Gemini is **<1%**).  
+- Improvements in **training, grounding, and evaluation** are making AI **more reliable**.  
+
+📊 **Tracking Hallucination Rates:**  
+Check the [Hughes Hallucination Evaluation Model (HHEM) leaderboard](https://huggingface.co/spaces/vectara/leaderboard) for real-time AI accuracy.  
+
+???
+
+**Talking Points:**  
+- No single fix, but multiple strategies help.  
+- RAG reduces hallucinations by supplying real-time, external facts.  
+- Better prompting can prevent AI from guessing when unsure.  
+- AI accuracy is improving significantly—latest models hallucinate much less than earlier ones.  
+- We should still verify AI-generated content in critical use cases.  
 
 ---
 
