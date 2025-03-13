@@ -673,24 +673,27 @@ exclude: true
 
 ---
 
-## Popular AI Chatbots (Feb 2025)
+<style>
+    table { font-size: 120%; }
+    tr td:first-of-type { display: flex; align-items: center; height: 85px; }
+    tr td:first-of-type img { width: 1.4em; height: 1.4em; margin-right: .5em; }
+    tr td:nth-of-type(2) { vertical-align: middle; }
+</style>
 
-| Company | Chatbot | Free Models | Memory |
-| ------- | ------- | ----------- | :----: |
-| .flex[.logo[![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Arcticons-black_openai_chatgpt.svg)] OpenAI] | [ChatGPT](https://chatgpt.com/) | GPT-4o, o3-mini (reasoning) | ✅ |
-| .flex[.logo[![](logos/gemini.svg)] Google] | [Gemini](https://gemini.google.com/app) | 2.0 Flash, 2.0 Flash Thinking (reasoning) | ✅ |
-| .flex[.logo[![](logos/claude.svg)] Anthropic] | [Claude](https://claude.ai) | 3.5 Sonnet | |
-| .flex[.logo[![](logos/meta-ai.png)] Meta AI] | [Meta AI]() | Llama 3.2, Llama 3,1, Llama 3.2 Editor | ✅ |
-| .flex[.logo[![](logos/copilot.svg)] Microsoft] | [Copilot]() | GPT-4o, Prometheus | |
-| .flex[.logo[![](logos/qwen.png)] Alibaba] | [Qwen]() | Qwen-2.5-Max, Qwen-2.5-Plus | |
-| .flex[.logo[![](logos/deepseek.png)] DeepSeek] | [DeepSeek]() | DeepSeek-V3, DeepSeek-R1 (reasoning) | |
-| .flex[.logo[![](logos/mistral.svg)] Mistral AI] | [Le Chat]() | Mistral Small, Mistral Large, Mistral Next | |
-| .flex[.logo[![](logos/xai.svg)] XAI] | [Grok]() | Grok 2 | |
-| .flex[.logo[![](logos/perplexity.png)] Perplexity] | [Perplexity]() | Auto (mix of OpenAi, Anthropic and Sonar models), o3-mini (reasoning), DeepSeek-R1 (reasoning) | | |
+## Popular AI Chatbots
 
-.footnote[
-- Memory: Preserves key memories between chats and inserts into chat context
-]
+| Company | Chatbot | Key Strengths |
+| ------- | ------- | ----------- | ----- |
+| ![](logos/openai.svg) OpenAI | <a href="https://chatgpt.com" target="_blank">ChatGPT</a> | - Natural conversation<br/> - Writing assistance<br/> - User-friendly interface |
+| ![](logos/gemini.svg) Google | <a href="https://gemini.google.com/app" target="_blank">Gemini</a> | - **Image generation** & multimodal capabilities<br/> - Google integration (Gmail, Docs, Search)<br/> - Accurate and contextual responses |
+| ![](logos/claude.svg) Anthropic | <a href="" target="_blank">Claude</a> | - Long conversations with better memory<br/> - Strong focus on **AI safety & ethics**<br/> - User-friendly with a strong free-tier experience |
+| ![](logos/meta-ai.png) Meta AI | <a href="https://www.meta.ai" target="_blank">Meta AI</a> | - Integrated into Facebook, Instagram, and WhatsApp<br/> - Casual & fun chatbot for everyday conversations<br/> - Some open-source models available |
+| ![](logos/copilot.svg) Microsoft | <a href="https://copilot.microsoft.com" target="_blank">Copilot</a> | - **Best for coding** assistance<br/> - Real-time code suggestions<br/> - Integration with Windows, Office, and VS Code |
+| ![](logos/qwen.png) Alibaba | <a href="https://chat.qwenlm.ai" target="_blank">Qwen</a> | - Strong support for Chinese and English<br/> - Optimized for business & e-commerce |
+| ![](logos/deepseek.png) DeepSeek | <a href="https://chat.deepseek.com" target="_blank">DeepSeek</a> | - Budget-friendly alternative to major chatbots<br/> - Good for document summarization & analysis |
+| ![](logos/mistral.svg) Mistral AI | <a href="https://chat.mistral.ai/chat" target="_blank">Mistral AI</a> | - Best open-source AI<br/> - Great for privacy-conscious users<br/> - Less dependent on big tech companies |
+| ![](logos/xai.svg) XAI | <a href="https://grok.com" target="_blank">Grok</a> | - Best for **real-time news** & Twitter integration<br/> - Humorous and informal tone |
+| ![](logos/perplexity.png) Perplexity | <a href="https://www.perplexity.ai" target="_blank">Perplexity</a> | - Best for AI-powered web search<br/> - Provides up-to-date information with cited sources<br/> - Mobile assistant for performing cross-app tasks |
 
 ---
 
