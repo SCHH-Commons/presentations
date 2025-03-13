@@ -721,4 +721,4 @@ class: center, middle
 
 ## Chatbot Examples
 
-[https://www.schh-commons.org/chatbot-examples](https://www.schh-commons.org/chatbot-examples)
+<a href="https://www.schh-commons.org/chatbot-examples" target="_blank">https://www.schh-commons.org/chatbot-examples</a>
