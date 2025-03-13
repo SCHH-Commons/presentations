@@ -674,10 +674,11 @@ exclude: true
 ---
 
 <style>
-    table { font-size: 120%; }
-    tr td:first-of-type { display: flex; align-items: center; height: 85px; }
+    table { font-size: 0.8em; }
+    tr td:first-of-type { display: flex; align-items: center; height: 45px; border-width: 0 0 0 1px; }
     tr td:first-of-type img { width: 1.4em; height: 1.4em; margin-right: .5em; }
     tr td:nth-of-type(2) { vertical-align: middle; }
+    tr td:nth-of-type(3) { font-size: 0.75em; }
 </style>
 
 ## Popular AI Chatbots
@@ -691,9 +692,9 @@ exclude: true
 | ![](logos/copilot.svg) Microsoft | <a href="https://copilot.microsoft.com" target="_blank">Copilot</a> | - **Best for coding** assistance<br/> - Real-time code suggestions<br/> - Integration with Windows, Office, and VS Code |
 | ![](logos/qwen.png) Alibaba | <a href="https://chat.qwenlm.ai" target="_blank">Qwen</a> | - Strong support for Chinese and English<br/> - Optimized for business & e-commerce |
 | ![](logos/deepseek.png) DeepSeek | <a href="https://chat.deepseek.com" target="_blank">DeepSeek</a> | - Budget-friendly alternative to major chatbots<br/> - Good for document summarization & analysis |
-| ![](logos/mistral.svg) Mistral AI | <a href="https://chat.mistral.ai/chat" target="_blank">Mistral AI</a> | - Best open-source AI<br/> - Great for privacy-conscious users<br/> - Less dependent on big tech companies |
+| ![](logos/mistral.svg) Mistral AI | <a href="https://chat.mistral.ai/chat" target="_blank">Mistral AI</a> | - Best open-source AI<br/> - Great for **privacy**-conscious users<br/> - Less dependent on big tech companies |
 | ![](logos/xai.svg) XAI | <a href="https://grok.com" target="_blank">Grok</a> | - Best for **real-time news** & Twitter integration<br/> - Humorous and informal tone |
-| ![](logos/perplexity.png) Perplexity | <a href="https://www.perplexity.ai" target="_blank">Perplexity</a> | - Best for AI-powered web search<br/> - Provides up-to-date information with cited sources<br/> - Mobile assistant for performing cross-app tasks |
+| ![](logos/perplexity.png) Perplexity | <a href="https://www.perplexity.ai" target="_blank">Perplexity</a> | - Best for **AI-powered web search**<br/> - Provides up-to-date information with cited sources<br/> - Mobile assistant for performing cross-app tasks |
 
 ---
 
