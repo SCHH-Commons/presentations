@@ -718,4 +718,4 @@ class: center, middle
 
 ## Chatbot Examples
 
-<a href="https://www.schh-commons.org/chatbot-examples" target="_blank">https://www.schh-commons.org/chatbot-examples</a>
+<a href="https://schh-commons.org/chatbot-examples" target="_blank">https://schh-commons.org/chatbot-examples</a>
