@@ -476,7 +476,6 @@ Synthetic Data (AI-generated training data)
 
 ## Emergent Behaviors in LLMs
 
-### What Are Emergent Behaviors?
 - Unexpected capabilities that **arise as models scale**, not explicitly programmed.  
 - Behaviors that were **absent in smaller models** but appear in larger ones.  
 - Often arise **without clear understanding** of how or why they emerge.  
@@ -673,16 +672,9 @@ exclude: true
 
 ---
 
-<style>
-    table { font-size: 0.8em; }
-    tr td:first-of-type { display: flex; align-items: center; height: 45px; border-width: 0 0 0 1px; }
-    tr td:first-of-type img { width: 1.4em; height: 1.4em; margin-right: .5em; }
-    tr td:nth-of-type(2) { vertical-align: middle; }
-    tr td:nth-of-type(3) { font-size: 0.75em; }
-</style>
-
 ## Popular AI Chatbots
 
+.chatbots[
 | Company | Chatbot | Key Strengths |
 | ------- | ------- | ----------- | ----- |
 | ![](logos/openai.svg) OpenAI | <a href="https://chatgpt.com" target="_blank">ChatGPT</a> | - Natural conversation<br/> - Writing assistance<br/> - User-friendly interface |
@@ -695,6 +687,7 @@ exclude: true
 | ![](logos/mistral.svg) Mistral AI | <a href="https://chat.mistral.ai/chat" target="_blank">Mistral AI</a> | - Best open-source AI<br/> - Great for **privacy**-conscious users<br/> - Less dependent on big tech companies |
 | ![](logos/xai.svg) XAI | <a href="https://grok.com" target="_blank">Grok</a> | - Best for **real-time news** & Twitter integration<br/> - Humorous and informal tone |
 | ![](logos/perplexity.png) Perplexity | <a href="https://www.perplexity.ai" target="_blank">Perplexity</a> | - Best for **AI-powered web search**<br/> - Provides up-to-date information with cited sources<br/> - Mobile assistant for performing cross-app tasks |
+]
 
 ---
 
