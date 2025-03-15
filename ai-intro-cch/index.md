@@ -4,7 +4,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/
 ## AI for Everyday Life
 ### Presentation to SCHH Computer Club 
 #### March 14, 2025
-### Ron Snyder
+### Ron Snyder ([ron@snyderjr.com](mailto:ron@snyderjr.com))
 
 ???
 The background image on this slide use different colors and brightness to represent different weights and biases in a neural network.
