@@ -1,3 +1,4 @@
 - [Artificial Intelligence Introduction (2hr class version)](ai-intro)
 - [Artificial Intelligence Introduction (1hr CCH version)](ai-intro-cch)
 - [Build Your Own Website](website)
+- [Build Your Own Website: Part 2](website-pt2)

@@ -28,7 +28,7 @@ class: center, middle
 
 ---
 
-exclude: false
+exclude: true
 
 ## About Me
 
