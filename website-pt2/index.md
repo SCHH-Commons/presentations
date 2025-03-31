@@ -169,9 +169,7 @@ Iframes allow you to:
 
 ---
 
-## Iframe Example
-
-### YouTube
+## YouTube Iframe Example
 
 ```html
 <iframe width="560" height="315" 
@@ -222,12 +220,36 @@ Iframes allow you to:
 1. **[Google Arts & Culture](https://artsandculture.google.com)** - Some exhibits/tools offer “Embed” via share menu or use [Google Art Project API](https://developers.google.com/cultural-institute) for custom embedding.
 1. **[Sketchfab](https://sketchfab.com)** - View a model → Click “Embed” under the viewer → Copy iframe code.
 1. **[GIPHY](https://giphy.com)** - Click on a GIF → Click “Share” → Choose “Embed” to get the iframe.
+1. **[Flickr](https://www.flickr.com)** - Open an image → Click the "Share" icon (arrow) → Choose “Embed” tab → Copy the iframe code (includes attribution).
+1. **[Openverse](https://openverse.org)** - Search for an image → Click on the image → Use “Copy HTML” under "Use this content" section (typically an `<img>` tag, not an `<iframe>` — can be wrapped in custom HTML if needed).
 
 ### ⚙️ Miscellaneous / Fun
 
 1. **[JokeAPI Wrapper Site](https://jokeapi.dev)** - Use a frontend like [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api) with a custom iframe widget.
 1. **[Internet Archive](https://archive.org)** - Visit a page → Click “Share” → Copy “Embed” iframe code.
 1. **[NASA APOD](https://apod.nasa.gov/apod/astropix.html)** - Some images allow iframe embedding via third-party tools or GitHub-hosted viewers.
+
+---
+
+### 📄 Google Workspace Embeds
+
+1. **[Google Sheets](https://sheets.google.com)** - File → Share → “Publish to the web” → Choose sheet or entire document → Copy the provided iframe embed code.
+1. **[Google Slides](https://slides.google.com)** - File → Share → “Publish to the web” → Choose embed → Set dimensions/autoplay → Copy iframe code.
+1. **[Google Docs](https://docs.google.com/document)** - File → Share → “Publish to the web” → Click “Embed” → Copy the iframe snippet.
+1. **[Google Calendar](https://calendar.google.com)** - Settings (⚙️) → Settings for a specific calendar → Scroll to “Integrate calendar” → Copy iframe from the “Embed code” field.
+
+---
+
+### 🎙️ Podcast Platforms
+
+1. **[Spotify](https://podcasters.spotify.com)** - Go to a show or episode → Click the “...” button → Select “Share” → Click “Embed” → Customize and copy the iframe.
+1. **[Apple Podcasts](https://podcasts.apple.com)** - Find a podcast on the web → Click “Share” → Choose “Embed” → Copy the iframe code (only available via the web interface, not in the app).
+1. **[Buzzsprout](https://www.buzzsprout.com)** - Open a podcast episode → Click “Embed this ONE episode” or “Embed multiple” → Copy the iframe snippet.
+1. **[Anchor](https://anchor.fm)** *(now part of Spotify for Podcasters)* - Episodes created with Anchor can be embedded via Spotify’s iframe tools.
+1. **[Simplecast](https://www.simplecast.com)** - View an episode page → Click the “Share” icon → Choose “Embed Player” → Copy the iframe.
+1. **[Transistor.fm](https://transistor.fm)** - Each episode has an “Embed” button with iframe options for both full player and mini player.
+1. **[Castos](https://castos.com)** - Episodes have embed options within the dashboard → Choose player style → Copy iframe.
+1. **[Podbean](https://www.podbean.com)** - Open an episode → Click “Share” → Select “Embed” → Customize and copy the code.
 
 ---
 
