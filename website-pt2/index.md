@@ -154,6 +154,106 @@ After this process, you’ll have **your own personalized website** up and runni
 
 ---
 
+## Adding Content From External Sites using Iframes
+
+An **iframe** (short for **inline frame**) is a special feature in web pages that allows you to display content from another website or source inside your own page—kind of like a **window inside a window**.  
+
+Think of an iframe like a **picture frame**, but instead of holding a photo, it holds another web page, a video, a map, or even interactive content.  
+
+### Why Are Iframes Useful?
+
+Iframes allow you to:  
+- **Embed Videos** – Display a YouTube or Vimeo video inside your webpage.
+- **Show Maps** – Add a Google Map without needing to send visitors to another website.
+- **Include External Content** – Display content from another site (like a form or a document) without making users leave your page.
+
+---
+
+## Iframe Example
+
+### YouTube
+
+```html
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  frameborder="0" allowfullscreen>
+</iframe>
+```
+
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  frameborder="0" allowfullscreen>
+  
+---
+
+## Sites that Provide Iframe Embed Codes
+
+### 📍 Maps & Geographic Content
+
+1. **[Google Maps](https://maps.google.com)** - Search a location → Click “Share” → Choose “Embed a map” to get the iframe code.
+1. **[OpenStreetMap](https://www.openstreetmap.org)** - Navigate to a map area → Click “Share” icon → Copy the HTML iframe code.
+1. **[WeatherWidget.io](https://weatherwidget.io)** - Customize a widget on the homepage → Click “Get code” to copy the iframe.
+
+### 🎥 Media & Video
+
+1. **[YouTube](https://www.youtube.com)** - Click “Share” under a video → Select “Embed” → Copy iframe code.
+1. **[Vimeo](https://vimeo.com)** - Click the “Share” icon on a video → Copy the embed iframe code.
+1. **[Twitch](https://www.twitch.tv)** - Visit [Twitch Embed Docs](https://dev.twitch.tv/docs/extensions/reference/#iframe-embedding) for instructions on live stream embed.
+1. **[Spotify](https://open.spotify.com)** - Click “...” next to song/playlist → “Share” → “Embed” → Copy iframe.
+
+---
+
+### 📰 News & Information
+
+1. **[Twitter/X](https://publish.twitter.com)** - Paste tweet/user URL → Customize → Copy the iframe embed code.
+1. **[NPR](https://www.npr.org)** - Many audio stories have an “Embed” option under the media player.
+1. **[The Guardian](https://www.theguardian.com)** - For some interactives and infographics, use developer tools or contact for embed permissions.
+
+### 📚 Learning & Reference
+
+1. **[Wikimedia Commons](https://commons.wikimedia.org)** - Use image or media file page → Scroll to “Use this file” → Copy iframe or embed snippet.
+1. **[Desmos](https://www.desmos.com/calculator)** - Create a graph → Click “Share” → Copy the embed code.
+1. **[GeoGebra](https://www.geogebra.org)** - Create an activity → Click “Share” → Choose “Embed” for iframe.
+
+---
+
+### 🖼️ Art & Visualization
+
+1. **[Google Arts & Culture](https://artsandculture.google.com)** - Some exhibits/tools offer “Embed” via share menu or use [Google Art Project API](https://developers.google.com/cultural-institute) for custom embedding.
+1. **[Sketchfab](https://sketchfab.com)** - View a model → Click “Embed” under the viewer → Copy iframe code.
+1. **[GIPHY](https://giphy.com)** - Click on a GIF → Click “Share” → Choose “Embed” to get the iframe.
+
+### ⚙️ Miscellaneous / Fun
+
+1. **[JokeAPI Wrapper Site](https://jokeapi.dev)** - Use a frontend like [https://icanhazdadjoke.com/api](https://icanhazdadjoke.com/api) with a custom iframe widget.
+1. **[Internet Archive](https://archive.org)** - Visit a page → Click “Share” → Copy “Embed” iframe code.
+1. **[NASA APOD](https://apod.nasa.gov/apod/astropix.html)** - Some images allow iframe embedding via third-party tools or GitHub-hosted viewers.
+
+---
+
+### 📊 Charts, Data & Dashboards
+
+1. **[Datawrapper](https://www.datawrapper.de)** - Create a chart → Publish & embed → Copy iframe from the “Embed” tab.
+1. **[Flourish](https://flourish.studio)** - Build a visualization → Click “Export & publish” → Choose “Embed” for iframe.
+1. **[TradingView](https://www.tradingview.com/widget/advanced-chart/)** - Customize chart widget → Click “Get Widget” → Copy generated iframe code.
+
+### 🌐 Web Tools & Widgets
+
+1. **[CodePen](https://codepen.io)** - Open a Pen → Click “Embed” → Customize and copy the iframe code.
+1. **[JSFiddle](https://jsfiddle.net)** - Save a fiddle → Click “Share” → Copy the iframe embed snippet.
+1. **[Replit](https://replit.com)** - Open a project → Click “Share” → Copy the iframe embed code.
+1. **[Padlet](https://padlet.com)** - Open a padlet → Click “Share” → Enable embed → Copy iframe code.
+1. **[Calendly](https://calendly.com)** - Go to “Share Your Link” → “Add to Website” → Choose embed option.
+1. **[Typeform](https://www.typeform.com)** - Open form → Click “Share” → “Embed into a web page” to get the code.
+
+---
+
+## Wikimedia Commons Example
+
+<p style="width:60%;"><a href="https://commons.wikimedia.org/wiki/File:Mount_Washington_Cog_Railway_October_2021_015_edit.jpg#/media/File:Mount_Washington_Cog_Railway_October_2021_015_edit.jpg"><img style="width:100%;height:unset;" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Mount_Washington_Cog_Railway_October_2021_015_edit.jpg" alt="Mount Washington Cog Railway October 2021 015 edit.jpg" height="4000" width="4000"></a><br>By <a href="//commons.wikimedia.org/wiki/User:King_of_Hearts" title="User:King of Hearts">King of Hearts</a> - This file was derived from: <a href="//commons.wikimedia.org/wiki/File:Mount_Washington_Cog_Railway_October_2021_015.jpg" title="File:Mount Washington Cog Railway October 2021 015.jpg">Mount Washington Cog Railway October 2021 015.jpg</a>:&nbsp;<span typeof="mw:File"><a href="//commons.wikimedia.org/wiki/File:Mount_Washington_Cog_Railway_October_2021_015.jpg" class="mw-file-description"></a></span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=138455036">Link</a></p>
+
+---
+
 ## Detailed Instructions
 
 Each of the stater templates contains a `README.md` file in the repository root directory.
