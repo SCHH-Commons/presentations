@@ -276,11 +276,21 @@ Iframes allow you to:
 
 ---
 
+## Iframe Convenience Wrappers
+
+The Web Site <a href="https://ifc.juncture-digital.org" target="_blank">ifc.juncture-digital.org</a> provides convenient Iframe wrappers for:
+- <a href="https://ifc.juncture-digital.org/#/docs/components/image" target="_blank">images</a>
+- <a href="https://ifc.juncture-digital.org/#/docs/components/map" target="_blank">maps</a>
+- <a href="https://ifc.juncture-digital.org/#/docs/components/video/youtube" target="_blank">YouTube videos</a>
+- <a href="https://ifc.juncture-digital.org/#/docs/components/audio" target="_blank">audio files</a>
+
+The wrappers provide both Markdown tags and HTML embed codes (`iframe`) for adding the item to a web site.
+
+---
+
 ## Detailed Instructions
 
-Each of the stater templates contains a `README.md` file in the repository root directory.
-
-The README.md file provides more detailed instructions for setting up and maintaining your site.
+The starter template contains a `README.md` file in the repository root directory providing more detailed instructions for setting up and maintaining your site.
 
 **Click here and let's get started!** - [https://github.com/SCHH-Commons/website-template](https://github.com/SCHH-Commons/website-template)
 
