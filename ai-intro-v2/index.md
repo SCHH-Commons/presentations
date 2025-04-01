@@ -2,7 +2,9 @@ class: center, middle
 
 .full[![](images/Intro.png)]
 
-# AI for Everyday Life  
+???
+
+## 1. AI for Everyday Life  
 ### How We Got Here — And What You Can Do With It  
 #### Presented by Ron Snyder
 
@@ -13,7 +15,8 @@ class: center, middle
 .full[![](images/Agenda.png)]
 
 ???
-## Today’s Journey  
+
+## 2. Today’s Journey  
 ### What We’ll Explore Together
 
 - 🧠 A Gentle History of AI  
@@ -30,7 +33,8 @@ class: center, middle
 .full[![](images/Dream_of_Thinking_Machines.png)]
 
 ???
-## The Dream of Thinking Machines  
+
+## 3. The Dream of Thinking Machines  
 ### 1950s–1970s
 
 - In the 1950s, researchers began dreaming of machines that could think like humans. The term *Artificial Intelligence* was coined in 1956 at a Dartmouth workshop attended by pioneers like Marvin Minsky and John McCarthy.
@@ -44,7 +48,8 @@ class: center, middle
 .full[![](images/AI_Winter.png)]
 
 ???
-## The AI Winter  
+
+## 4. The AI Winter  
 ### 1970s–1980s
 
 - Optimism faded as it became clear that early AI systems couldn't live up to the hype — they struggled with anything outside of narrow, rule-based tasks.
@@ -59,7 +64,8 @@ class: center, middle
 .full[![](images/When_Machines_Surprised_Us.png)]
 
 ???
-## When Machines Surprised Us  
+
+## 5. When Machines Surprised Us  
 ### 1997
 
 - In 1997, IBM’s Deep Blue defeated Garry Kasparov, the world chess champion. It was the first time a computer had beaten a human grandmaster in a match under standard tournament rules.
@@ -74,7 +80,8 @@ class: center, middle
 .full[![](images/Watson_on_Jeopardy.png)]
 
 ???
-## Watson on Jeopardy!  
+
+## 6. Watson on Jeopardy!  
 ### 2011
 
 - In 2011, IBM returned with another AI challenger — Watson — which played and won *Jeopardy!* against the two greatest champions of the game.
@@ -89,7 +96,8 @@ class: center, middle
 .full[![](images/The_Rise_of_Deep_Learning.png)]
 
 ???
-## The Rise of Deep Learning  
+
+## 7. The Rise of Deep Learning  
 ### 2012–2020
 
 - Around 2012, AI took off again — this time powered by *deep learning*, a new way of training machines using huge amounts of data and layered neural networks.
@@ -104,7 +112,8 @@ class: center, middle
 .full[![](images/The_AI_Sputnik_Moment.png)]
 
 ???
-## The AI ‘Sputnik Moment’  
+
+## 8. The AI ‘Sputnik Moment’  
 ### 2022
 
 - In late 2022, OpenAI released ChatGPT — and for many people, it felt like AI had suddenly leapt forward overnight.
@@ -116,40 +125,11 @@ class: center, middle
 
 class: center, middle
 
-.full[![](images/The_Perfect_Storm_for_AI.png)]
-
-???
-## Why Now?  
-### The Perfect Storm for AI
-
-- Several trends came together to make this AI moment possible: faster computers, better algorithms, and massive amounts of digital data.
-- Graphics cards — originally designed for video games — turned out to be great at training deep neural networks.
-- At the same time, companies and researchers had access to huge datasets: text, images, videos, conversations.
-- Billions of dollars started pouring in, accelerating the pace of research — and making AI commercially viable.
-
----
-
-class: center, middle
-
-.full[![](images/From_Labs_to_Everyday_Life.png)]
-
-???
-## From Labs to Everyday Life  
-### AI Is Already All Around Us
-
-- AI is behind your phone’s facial recognition, your GPS directions, and your streaming recommendations — even if you’ve never used ChatGPT.
-- It helps filter spam, organize photos, flag credit card fraud, and adjust your thermostat.
-- Behind the scenes, it powers everything from supply chains to smart farming.
-- Long before ChatGPT, AI had quietly become embedded in our daily lives.
-
----
-
-class: center, middle
-
 .full[![](images/What_Is_Generative_AI.png)]
 
 ???
-## What Is Generative AI?  
+
+## 9. What Is Generative AI?  
 ### And Why It Feels Different
 
 - Most earlier AI systems just *classified* things — is this a cat or a dog? Is this email spam?
@@ -164,7 +144,8 @@ class: center, middle
 .full[![](images/Large_Language_Models.png)]
 
 ???
-## Large Language Models (LLMs)  
+
+## 10. The Power Behind the Magic: Large Language Models (LLMs)
 ### The Engines Behind Chatbots
 
 - ChatGPT is powered by a Large Language Model — trained on books, articles, websites, and other text sources.
@@ -179,7 +160,8 @@ class: center, middle
 .full[![](images/Talking_With_AI.png)]
 
 ???
-## Chatbots: Talking With AI  
+
+## 11. Chatbots: Talking with AI: The Chatbot Revolution
 ### A New Way to Interact
 
 - Chatbots like ChatGPT make AI feel natural — you just type, and it responds like a conversation.
@@ -191,10 +173,43 @@ class: center, middle
 
 class: center, middle
 
+.full[![](images/The_Perfect_Storm_for_AI.png)]
+
+???
+
+## 12. Why Now? The Perfect Storm for AI
+### The Perfect Storm for AI
+
+- Several trends came together to make this AI moment possible: faster computers, better algorithms, and massive amounts of digital data.
+- Graphics cards — originally designed for video games — turned out to be great at training deep neural networks.
+- At the same time, companies and researchers had access to huge datasets: text, images, videos, conversations.
+- Billions of dollars started pouring in, accelerating the pace of research — and making AI commercially viable.
+
+---
+
+class: center, middle
+
+.full[![](images/From_Labs_to_Everyday_Life.png)]
+
+???
+
+## 13. From Labs to Apps: AI Goes Mainstream
+### AI Is Already All Around Us
+
+- AI is behind your phone’s facial recognition, your GPS directions, and your streaming recommendations — even if you’ve never used ChatGPT.
+- It helps filter spam, organize photos, flag credit card fraud, and adjust your thermostat.
+- Behind the scenes, it powers everything from supply chains to smart farming.
+- Long before ChatGPT, AI had quietly become embedded in our daily lives.
+
+---
+
+class: center, middle
+
 .full[![](images/Language_as_the_Interface.png)]
 
 ???
-## Language as the Interface  
+
+## 14. Language Is the Interface of the Future
 ### Everyone Can Use AI Now
 
 - In the past, using AI meant coding or configuring systems — now, it just means talking.
@@ -209,7 +224,8 @@ class: center, middle
 .full[![](images/What_Makes_ChatGPT_So_Different.png)]
 
 ???
-## What Makes ChatGPT So Different?  
+
+## 15. What Makes ChatGPT So Different?  
 ### It Feels… Human
 
 - ChatGPT responds in full sentences. It remembers context. It sounds natural. It can even be funny.
@@ -224,7 +240,8 @@ class: center, middle
 .full[![](images/Is_It_Always_Right.png)]
 
 ???
-## Is It Always Right?  
+
+## 16. Is It Always Right?  
 ### Not Quite.
 
 - AI can sound confident — even when it’s completely wrong. These mistakes are called *hallucinations*.
@@ -239,7 +256,8 @@ class: center, middle
 .full[![](images/The_Speed_of_Progress.png)]
 
 ???
-## The Speed of Progress  
+
+## 17. The Speed of Progress Is Shocking
 ### Blink and It’s Changed Again
 
 - ChatGPT launched in November 2022 — GPT-4 followed just four months later.
@@ -254,7 +272,8 @@ class: center, middle
 .full[![](images/What_Comes_Next.png)]
 
 ???
-## What Comes Next?  
+
+## 18. What Comes Next?  
 ### AGI and Beyond
 
 - AGI, or Artificial General Intelligence, refers to AI that can match or exceed human ability across most tasks.
@@ -266,10 +285,60 @@ class: center, middle
 
 class: center, middle
 
+.full[![](images/Other_Big_Players_in_AI.png)]
+
+???
+
+## 19. Other Big Players in AI  
+### It’s Not Just ChatGPT
+
+- OpenAI – ChatGPT, DALL·E, and more  
+- Google – Gemini, integrated into Search and Android  
+- Anthropic – Claude, focused on safety and alignment  
+- Meta, Mistral, xAI — and many others are in the race  
+- AI development is a global effort — and a global competition
+
+---
+
+class: center, middle
+
+.full[![](images/AI_Is_a_Mirror.png)]
+
+???
+
+## 20. AI Is a Mirror  
+### It Reflects the Data It’s Trained On
+
+- AI is trained on human language, written by us — the good and the bad  
+- That means it can be brilliant, funny, helpful… or biased and wrong  
+- It can repeat stereotypes, reflect misinformation, or miss nuance  
+- As AI becomes more powerful, ethics and fairness matter more than ever
+
+---
+
+class: center, middle
+
+.full[![](images/What_AI_Can’t_Do_Yet.png)]
+
+???
+
+## 21. What AI Can’t Do (Yet)  
+### And Why Human Judgment Still Matters
+
+- It doesn’t think for itself or form opinions  
+- It doesn’t feel emotions or understand context the way we do  
+- It doesn’t know what’s true — it’s just guessing based on patterns  
+- It can help, but it shouldn’t replace human judgment or common sense
+
+---
+
+class: center, middle
+
 .full[![](images/What_Can_You_Actually_Do_With_AI.png)]
 
 ???
-## What Can You Actually *Do* With AI?  
+
+## 22. What Can You Actually *Do* With AI?  
 ### Let’s Get Practical
 
 - So far we’ve talked about history, breakthroughs, and where things might go next…
@@ -281,10 +350,21 @@ class: center, middle
 
 class: center, middle
 
+.full[![](images/Transition.png)]
+
+???
+
+## 23. Transition to part 2  
+
+---
+
+class: center, middle
+
 .full[![](images/Advice.png)]
 
 ???
-## Everyday Advice  
+
+## 24. Everyday Advice  
 ### From Shopping Lists to Social Situations
 
 - “What’s a good birthday gift for a 10-year-old who loves space?”
@@ -299,7 +379,8 @@ class: center, middle
 .full[![](images/Creativity.png)]
 
 ???
-## Creativity  
+
+## 25. Creativity  
 ### A Spark When You Need It
 
 - “Write a limerick about pickleball in Sun City.”  
@@ -314,7 +395,8 @@ class: center, middle
 .full[![](images/Education.png)]
 
 ???
-## Education  
+
+## 26. Education  
 ### Learning Without Lectures
 
 - “Explain Bitcoin like I’m 12.”  
@@ -330,7 +412,8 @@ class: center, middle
 .full[![](images/Entertainment.png)]
 
 ???
-## Entertainment  
+
+## 27. Entertainment  
 ### Just for Fun
 
 - “Make a cartoon of a robot playing golf with a flamingo.” *(Image generation)*  
@@ -346,7 +429,8 @@ class: center, middle
 .full[![](images/Finance.png)]
 
 ???
-## Finance  
+
+## 28. Finance  
 ### A Friendly Budget Buddy
 
 - “Help me create a simple monthly budget.”  
@@ -362,7 +446,8 @@ class: center, middle
 .full[![](images/Food.png)]
 
 ???
-## Food  
+
+## 29. Food  
 ### What’s for Dinner?
 
 - “What can I make with chicken, broccoli, and Greek yogurt?”  
@@ -378,7 +463,8 @@ class: center, middle
 .full[![](images/Productivity.png)]
 
 ???
-## Productivity  
+
+## 30. Productivity  
 ### Get More Done, With Less Effort
 
 - “Summarize this long email for me.”  
@@ -394,7 +480,8 @@ class: center, middle
 .full[![](images/Research.png)]
 
 ???
-## Research  
+
+## 31. Research  
 ### Big Questions, Clear Answers
 
 - “Explain the current challenges facing Social Security — and how they might be addressed.”  
@@ -410,7 +497,8 @@ class: center, middle
 .full[![](images/Shopping.png)]
 
 ???
-## Shopping  
+
+## 32. Shopping  
 ### Smarter Choices, Less Searching
 
 - “Compare cordless stick vacuums under $200 with strong reviews.”  
@@ -426,7 +514,8 @@ class: center, middle
 .full[![](images/Tech.png)]
 
 ???
-## Tech  
+
+## 33. Tech  
 ### Your Friendly Troubleshooter
 
 - “Why can’t I log into my email — and what should I check first?”  
@@ -442,7 +531,8 @@ class: center, middle
 .full[![](images/Travel.png)]
 
 ???
-## Travel  
+
+## 34. Travel  
 ### Plan with Ease, Explore with Confidence
 
 - “Plan a 10-day road trip to Maine — no more than 8 hours of driving per day.”  
@@ -458,7 +548,8 @@ class: center, middle
 .full[![](images/Writing.png)]
 
 ???
-## Writing  
+
+## 35. Writing  
 ### From First Draft to Final Touch
 
 - “Help me write a friendly email asking for a volunteer.”  
@@ -474,7 +565,8 @@ class: center, middle
 .full[![](images/Closing.png)]
 
 ???
-## Thanks for Exploring AI with Me  
+
+## 36. Thanks for Exploring AI with Me  
 ### Questions? Ideas? Let’s Chat.
 
 - AI is moving fast — but learning together makes it easier (and more fun).
