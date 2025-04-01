@@ -573,3 +573,9 @@ class: center, middle
 - If you’re curious, try things. Ask questions. Explore.
 - You don’t have to be technical to be part of this moment.
 - Let’s take a look at some examples — and then I’d love to hear your thoughts.
+
+---
+
+### Resources
+
+- <a href="https://schh-commons.org/chatbot-examples" target="_blank">Chatbot Examples</a>
