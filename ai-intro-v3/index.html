@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI Introduction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic,700italic);
+      @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Roboto'; }
+
+      .remark-slide-scaler {
+        height: unset !important;
+        aspect-ratio: 16/9;
+      }
+      .remark-slide {
+      }
+      .remark-slide-content {
+        position: relative;
+        background-size: 100% auto;
+        background-repeat: no-repeat; 
+        background-position: center center;
+        padding: 0;   
+      }
+      .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+      .title h1 {
+        padding: 0.4em 0 0 0;
+        margin: 0 0.5em;
+        font-size: 2em;
+      }
+      .title h2 {
+        padding: 0;
+        margin: 0 0.5em;
+        font-size: 1.75em;
+        font-weight: 500;
+      }
+      img {
+        position: absolute;
+        right: 52%;
+        top: 22%;
+        max-height: 76%;
+        max-width: 46%;
+        object-fit: contain;
+        /* background-color: rgba(255, 255, 255, 0.5);*/
+        border-radius: 1em;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border: 1px solid #bbb;
+      }
+      .content {
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        height: 80%;
+        font-size: 1.3em;
+        margin-right: 0.5em;
+      }
+      .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+        padding: 0;
+        margin: 0.5em 0;
+      }
+      .content h1 {
+        font-size: 130%;
+      }
+      .content h2 {
+        font-size: 120%;
+      }      
+      .content h3 {
+        font-size: 110%;
+      }
+      .content h4, .content .content h5, .content h6 {
+        font-size: 100%;
+      }
+      .content > ul, .content > ol {
+        padding-left: 0;
+        margin-left: 1em;
+        margin-bottom: 0.3em;
+      }
+      .content > ul > li, .content > ol > li {
+        margin-bottom: 0.4em;
+        line-height: 1.1;
+      }
+      .double-space li {
+        margin-bottom: 1em;
+      }
+      .content p {
+        margin: 0;
+      }
+      .full img {
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      /*
+      fetch('index.md')
+        .then(resp => resp.text())
+        .then(md => {
+          document.getElementById('source').innerText = md
+          let slideshow = remark.create();
+        })
+        */
+      let slideshow = remark.create({sourceUrl: 'index.md'})
+    </script>
+  </body>
+</html>

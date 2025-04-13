@@ -3,3 +3,4 @@
 - [Build Your Own Website](website)
 - [Build Your Own Website: Part 2](website-pt2)
 - [Artificial Intelligence Introduction (2hr class version 2)](ai-intro-v2)
+- [Artificial Intelligence Introduction (2hr class version 3)](ai-intro-v3)
