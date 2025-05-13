@@ -295,6 +295,53 @@ background-image: url(images/default.png)
 background-image: url(images/default.png)
 
 .title[
+# Talking with AI: Data and Privacy
+## How is your data used?
+]
+
+![](images/Talking_With_AI.png)
+
+.content[
+- Claude and Notebook LM provide good privacy by default, others have default policies that share some level of data unless opted out
+- A general rule-of-thumb: **if you wouldn’t paste it on a public website, don’t paste it into an AI chat unless you’ve turned off "model improvement."**
+- Refer to this document for details: [AI Tools - Privacy Policies Explained](https://www.schh-commons.org/chatbot-examples/static/pdfs/AI_Tools_-_Privacy_Policies_Explained.pdf)
+]
+
+---
+
+background-image: url(images/default.png)
+
+.title[
+# Why Now? The Perfect Storm for AI
+## The Perfect Storm for AI
+]
+
+![](images/The_Perfect_Storm_for_AI.png)
+
+.content[
+- Better algorithms (especially deep learning)
+- Massive amounts of data to train on
+- Much more powerful computers (thanks, GPUs)
+- Billions of dollars in investment
+
+These ingredients finally came together
+]
+
+???
+
+## 12. Why Now? The Perfect Storm for AI
+### The Perfect Storm for AI
+
+- Several trends came together to make this AI moment possible: faster computers, better algorithms, and massive amounts of digital data.
+- Graphics cards — originally designed for video games — turned out to be great at training deep neural networks.
+- At the same time, companies and researchers had access to huge datasets: text, images, videos, conversations.
+- Billions of dollars started pouring in, accelerating the pace of research — and making AI commercially viable.
+
+---
+
+background-image: url(images/default.png)
+
+.title[
 # Why Now? The Perfect Storm for AI
 ## The Perfect Storm for AI
 ]
